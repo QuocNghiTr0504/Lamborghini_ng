@@ -1,0 +1,56 @@
+mat-toolbar{
+    position: relative;
+    z-index: 5;
+    display: flex;
+    justify-content: space-between;
+    // background: rgb(24, 24, 24);
+     // background:#0f172a ;
+    font-family: Karla;
+}
+mat-sidenav{
+    background: transparent;
+}
+
+// Button Rotate
+button{
+    border: none;
+}
+.selected-menu-item{
+border-left: red solid 2px;
+}
+
+
+.content{
+    height: 100vh;
+     padding: 35px;
+  }
+  mat-sidenav-container{
+    height: calc(100vh - 64px);
+  }
+  mat-sidenav{
+  
+     margin-top: 7px;
+  
+  }
+  mat-sidenav, mat-sidenav-content{
+    transition: all 500ms ease-in-out;
+  }
+  
+.darkMode{
+      background: transparent;
+}
+mat-icon {
+  display: inline-block;
+  width: auto;
+  height: auto;
+}
+
+.absolute-button {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+.darkMode{
+  background: #000;
+}

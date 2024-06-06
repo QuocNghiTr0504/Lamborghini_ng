@@ -1,0 +1,167 @@
+{
+    "products": [
+    {
+    "id": 0,
+    "name": "urus model",
+    "city": "Chicago",
+    "category":"urus",
+    "price":"$74,700",
+    "state": "IL",
+    "photo": "https://lamborghinimontreal.com/wp-content/uploads/2023/01/Urus-S-Lamborghini-modele-1.png",
+    "photodetails":[
+        "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.motor1.com%2Fnews%2F579307%2Flamborghini-huracan-tecnica-reveal-official%2F&psig=AOvVaw1dV7QiPAdsgxlUCLBn6DQj&ust=1712309747981000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCICjgYahqIUDFQAAAAAdAAAAABAE"
+    ]
+    ,
+    "availableUnits": 4,
+    "wifi": true,
+    "laundry": true,
+    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis aperiam impedit, illo accusantium id alias, in ea quaerat perspiciatis minima doloremque at tempora blanditiis nemo fugit. Natus, quae fugit? Magnam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat odio amet quidem nostrum maxime quasi voluptatum, illo reiciendis facere, corrupti sequi debitis velit. Quas quod repellendus aliquam soluta veritatis fugit."
+        
+    }
+    ,
+    {
+    "id":10,
+    "name":"urus montreal",
+    "photo":"https://lamborghinimontreal.com/wp-content/uploads/2023/01/Urus-Lamborghini-modele.png",
+    "price":"1,146 tỷ",
+    "power":"1024 CV",
+    "category":"urus",
+    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis aperiam impedit, illo accusantium id alias, in ea quaerat perspiciatis minima doloremque at tempora blanditiis nemo fugit. Natus, quae fugit? Magnam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat odio amet quidem nostrum maxime quasi voluptatum, illo reiciendis facere, corrupti sequi debitis velit. Quas quod repellendus aliquam soluta veritatis fugit."
+       
+    },
+    {
+        "id":12,
+        "name":"urus montreal black",
+        "photo":"https://lamborghinimontreal.com/wp-content/uploads/2023/01/Urus-GRAPHITE-Lamborghini-modele.png",
+        "price":"1,146 tỷ",
+        "power":"1024 CV",
+        "category":"urus",
+        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis aperiam impedit, illo accusantium id alias, in ea quaerat perspiciatis minima doloremque at tempora blanditiis nemo fugit. Natus, quae fugit? Magnam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat odio amet quidem nostrum maxime quasi voluptatum, illo reiciendis facere, corrupti sequi debitis velit. Quas quod repellendus aliquam soluta veritatis fugit."
+       
+    },
+    {
+    "id": 2,
+    "name": "Urus Motreal Green",
+    "price":"$85,34 USD",
+    "category":"urus",
+    "power":"1024 CV",
+    "city": "Juneau",
+    "state": "AK",
+    "photo": "https://lamborghinimontreal.com/wp-content/uploads/2023/01/Urus-PEARL-Lamborghini-modele.png",
+    "availableUnits": 1,
+    "wifi": false,
+    "laundry": false,
+    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis aperiam impedit, illo accusantium id alias, in ea quaerat perspiciatis minima doloremque at tempora blanditiis nemo fugit. Natus, quae fugit? Magnam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat odio amet quidem nostrum maxime quasi voluptatum, illo reiciendis facere, corrupti sequi debitis velit. Quas quod repellendus aliquam soluta veritatis fugit."
+
+    },
+    {
+    "id": 3,
+    "name": "Laborghini Urus 2024",
+    "price":"$74,700",
+    "city": "Chicago",
+    "state": "IL",
+    "photo": "https://images.drive.com.au/driveau/image/upload/c_fill,f_auto,g_auto,h_675,q_auto:good,w_1200/cms/uploads/izw5wm4v6w59xaelxygr",
+    "availableUnits": 1,
+    "wifi": true,
+    "laundry": false,
+    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis aperiam impedit, illo accusantium id alias, in ea quaerat perspiciatis minima doloremque at tempora blanditiis nemo fugit. Natus, quae fugit? Magnam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat odio amet quidem nostrum maxime quasi voluptatum, illo reiciendis facere, corrupti sequi debitis velit. Quas quod repellendus aliquam soluta veritatis fugit."
+
+    },
+    {
+    "id": 4,
+    "name": "revuelto",
+    "price":"3,094 tỷ",
+    "city": "Gary",
+    "state": "IN",
+    "photo": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/homepage/families-gallery/2023/revuelto/revuelto_m.png",
+    "power":"1024 CV",
+    "availableUnits": 1,
+    "wifi": true,
+    "laundry": false,
+    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis aperiam impedit, illo accusantium id alias, in ea quaerat perspiciatis minima doloremque at tempora blanditiis nemo fugit. Natus, quae fugit? Magnam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat odio amet quidem nostrum maxime quasi voluptatum, illo reiciendis facere, corrupti sequi debitis velit. Quas quod repellendus aliquam soluta veritatis fugit."
+
+    },
+    {
+    "id": 5,
+    "name": "Huracan Sterrato",
+    "price":"18,923 tỷ",
+    "city": "Oakland",
+    "state": "CA",
+    "photo": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/homepage/model_choose/2023/huracan_sterrato_m.png",
+    "photodetails":"https://www.google.com/url?sa=i&url=https%3A%2F%2Ftenor.com%2Fview%2Flamborghini-game-car-gif-15041758&psig=AOvVaw23EPYmF8b1VzVFQ8upARMX&ust=1715749496400000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCKClgIyvjIYDFQAAAAAdAAAAABBO",
+    "availableUnits": 2,
+    "wifi": true,
+    "laundry": true,
+    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis aperiam impedit, illo accusantium id alias, in ea quaerat perspiciatis minima doloremque at tempora blanditiis nemo fugit. Natus, quae fugit? Magnam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat odio amet quidem nostrum maxime quasi voluptatum, illo reiciendis facere, corrupti sequi debitis velit. Quas quod repellendus aliquam soluta veritatis fugit."
+
+    },
+    {
+    "id": 6,
+    "name": "URUS SE",
+    "price":"661 triệu",
+    "city": "Oakland",
+    "state": "CA",
+    "photo": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/homepage/2024/family/Model%3DUrus%20SE%2C%20Type%3DMobile%20%281%29.png",
+    "photodetails":[
+       {"link1":"https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/countach/menu/menu_countach_lpi_01.png"}
+    ],
+    "availableUnits": 5,
+    "wifi": true,
+    "laundry": true,
+    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis aperiam impedit, illo accusantium id alias, in ea quaerat perspiciatis minima doloremque at tempora blanditiis nemo fugit. Natus, quae fugit? Magnam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat odio amet quidem nostrum maxime quasi voluptatum, illo reiciendis facere, corrupti sequi debitis velit. Quas quod repellendus aliquam soluta veritatis fugit."
+
+    },
+    {
+    "id": 7,
+    "name": "Cadillac CT4-V",
+    "price":"1,146 tỷ",
+    "city": "Oakland",
+    "state": "CA",
+    "photo": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/countach/menu/menu_countach_lpi_01.png",
+    "availableUnits": 2,
+    "wifi": true,
+    "laundry": true,
+    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis aperiam impedit, illo accusantium id alias, in ea quaerat perspiciatis minima doloremque at tempora blanditiis nemo fugit. Natus, quae fugit? Magnam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat odio amet quidem nostrum maxime quasi voluptatum, illo reiciendis facere, corrupti sequi debitis velit. Quas quod repellendus aliquam soluta veritatis fugit."
+
+    },
+    {
+    "id": 8,
+    "name": "Lamborghini Huracan Sterrato Opera Unica",
+    "city": "Oakland",
+    "price":"7,1 tỷ",
+    "state": "CA",
+    "photo": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/menu/09_09/menu_sianFKP37.png",
+    "availableUnits": 10,
+    "wifi": false,
+    "laundry": false,
+    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis aperiam impedit, illo accusantium id alias, in ea quaerat perspiciatis minima doloremque at tempora blanditiis nemo fugit. Natus, quae fugit? Magnam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat odio amet quidem nostrum maxime quasi voluptatum, illo reiciendis facere, corrupti sequi debitis velit. Quas quod repellendus aliquam soluta veritatis fugit."
+
+    },
+    {
+    "id": 9,
+    "name": "Ason Martin DB11",
+    "price":"15,7 tỷ",
+    "city": "Portland",
+    "state": "OR",
+    "photo": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/revuelto/menu/menu_revuelto.png",
+    "availableUnits": 6,
+    "wifi": true,
+    "laundry": true,
+    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis aperiam impedit, illo accusantium id alias, in ea quaerat perspiciatis minima doloremque at tempora blanditiis nemo fugit. Natus, quae fugit? Magnam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat odio amet quidem nostrum maxime quasi voluptatum, illo reiciendis facere, corrupti sequi debitis velit. Quas quod repellendus aliquam soluta veritatis fugit."
+    },
+    {
+    "id": 1,
+    "name": "Sian roadster",
+    "price":"$74,700",
+    "city": "Automobili Lamborghi",
+    "state": "CA",
+    "photo": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/menu/09_09/menu_sian_rds.png",
+    "availableUnits": 0,
+    "wifi": false,
+    "laundry": true,
+    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis aperiam impedit, illo accusantium id alias, in ea quaerat perspiciatis minima doloremque at tempora blanditiis nemo fugit. Natus, quae fugit? Magnam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat odio amet quidem nostrum maxime quasi voluptatum, illo reiciendis facere, corrupti sequi debitis velit. Quas quod repellendus aliquam soluta veritatis fugit."
+
+    }
+    ]
+
+    }

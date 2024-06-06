@@ -1,0 +1,41 @@
+<div *ngFor="let items of detailsProduct" class="relative font-bold">
+    
+    <div class="container grid grid-cols-3 z-20 absolute justify-center p-4">
+        <div class="jtl border border-none opacity-65"></div>
+        <div class="jtl border border-none opacity-2"></div>
+        <div class="jtl border border-solid opacity-2">
+            <div class="inf justify-center">
+                <button class="hover:opacity-35 mr-11">
+                    <svg class="hexagon-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50.464 58.271" width="50" height="58">
+                        <g stroke-width="2" transform="translate(-1624 -187.923)"><path d="M50.464 43.992L25.732 58.271 1 43.992V15.434L25.732 1.155l24.732 14.279z"transform="translate(1623.5 187.345)" class="hexagon on-dark" fill="none" stroke="white"></path><path class="icon on-dark" d="M0 0l7.432 5.674L14.864 0" transform="rotate(-90 935.432 -711.068)" fill="none" stroke="white"></path></g></svg>
+                </button>
+                <div class="ml-5 see">{{items.name | uppercase}}</div>
+            </div>
+        </div>
+        <div class="jtl border border-none opacity-2"></div>
+        <div class="jtl border border-none opacity-2"></div>
+        <div class="jtl border-x border-b text-center">
+            <div class="p-4">{{items.price}}</div>
+        </div>
+        <div class="jtl mt-8 border border-solid opacity-2">
+            <div class="inf justify-center">
+                <button class="hover:opacity-35 mr-11">
+                    <svg class="hexagon-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50.464 58.271" width="50" height="58">
+                        <g stroke-width="2" transform="translate(-1624 -187.923)"><path d="M50.464 43.992L25.732 58.271 1 43.992V15.434L25.732 1.155l24.732 14.279z"transform="translate(1623.5 187.345)" class="hexagon on-dark" fill="none" stroke="white"></path><path class="icon on-dark" d="M0 0l7.432 5.674L14.864 0" transform="rotate(-90 935.432 -711.068)" fill="none" stroke="white"></path></g></svg>
+                </button>
+                <span  class="see ml-3">SEE INFORMATION</span>  
+            </div>         
+        </div>
+        <div class="jtl border-y border-r border-solid opacity-2 text-center">
+            <h3>POWER(COMBINED ICE + EE)</h3> 
+            <div class="p-4">{{items.power}}</div>
+        </div>
+        <div class="jtl grid grid-cols-2 jtl border-r border-b border-solid text-center ">
+            <div class="border-r">11</div>
+            <div class="border-solid ">12</div>
+        </div>
+    </div>
+    <div class="picture car" >
+        <img class="z-0 a" [src]="items?.photo" alt="">   
+    </div>
+</div>

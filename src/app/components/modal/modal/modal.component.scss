@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.dialogModal{
+  background: rgb(255, 254, 254);
+}
+
+.dialogDark{
+  background: #212121;
+  color: rgb(255, 255, 255);
+  z-index: 999;
+}
+
+
+.custom-dialog {
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 300px; 
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+  z-index: 1000; 
+  animation: slideInFromLeft 0.3s ease-out;
+  overflow-y: auto;
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.mat-dialog-content {
+  height: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.setting{
+  margin-left: 10px;
+  padding: 4px;
+}
+.mat-mdc-dialog-content{
+  max-height: 100vh;
+}
+.darkMode{
+  color:red;
+}
+
+.container{
+  padding: 10px;
+  margin-left: 5px;
+}
+button{
+  margin-left: 5px;
+}

@@ -1,0 +1,9 @@
+
+<div class="box w-full">
+    <div class="grid grid-cols-4 gap-5" >
+      <app-productitem *ngFor="let item of PageProduct" [item]="item"></app-productitem>
+    </div>
+
+    <mat-paginator class="h-20" [pageSizeOptions]="[4,8,12]" showFirstLastButtons [pageSize]="4" [length]="productList.length" (page)="pageChanged($event)">
+    </mat-paginator>
+</div>

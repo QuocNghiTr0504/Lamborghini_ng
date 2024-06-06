@@ -1,0 +1,38 @@
+/* Đặt màu mặc định cho tất cả các phần tử và loại bỏ màu xanh */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.mat-list-icons {
+  font-size: 1.4rem;
+  justify-content: center;
+  color: initial; 
+}
+
+.mat-items {
+  font-size: 15px;
+
+}
+
+mat-list-item {
+  border-left: 2px solid transparent; 
+}
+
+
+a.select-menu-icon {
+  border-left: 5px solid rgba(0,0,0,0.2);
+}
+
+
+a.select-menu-icon .mat-list-icons {
+  color: #153448 !important; 
+}
+
+mat-nav-list, .mat-list-icons {
+  transition: all 0.3s ease-in-out;
+}
+a.select-menu-icon .mat-items {
+  color: #153448 !important; 
+}

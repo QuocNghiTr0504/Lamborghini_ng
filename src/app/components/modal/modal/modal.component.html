@@ -1,0 +1,65 @@
+
+
+
+  <div class="custom-dialog" [class.dialogModal]="!darkMode" [class.dialogDark]="darkMode">
+    <div  class="tittle flex justify-around">
+      <h2 mat-dialog-title class="setting mb-4 content-center justify-center" >Settings</h2>
+      <div mat-dialog-title>
+        <button mat-dialog-close mat-icon-button class="mt-4">
+          <mat-icon class="mt-14">close</mat-icon>
+        </button>
+    </div>
+
+    </div>
+
+    <mat-dialog-content class="mat-typography mt-4">
+      <div class="theming ">
+        <h2>Them</h2> 
+    
+        <mat-radio-group aria-label="Select an option " class="flex justify-between">
+          <mat-radio-button value="1">Light</mat-radio-button>
+          <mat-radio-button value="2">Dark</mat-radio-button>
+          <mat-radio-button value="2">Auto</mat-radio-button>
+        </mat-radio-group><br> <br><hr>
+      </div>
+      <br>
+      <div class="colorButton p-5">
+        <h2>Button Colors</h2>
+        <div class="container flex p-3 ml-5">
+          <button mat-raised-button color="primary" (click)="toggleChecked('primary')" >
+            <span *ngIf="checked ==='primary'"><mat-icon>done</mat-icon></span>
+          </button>
+          
+          <button mat-raised-button color="accent" (click)="toggleChecked('accent')" >
+            <span *ngIf="checked === 'accent'"><mat-icon>done</mat-icon></span>
+          </button>
+          
+          <button mat-raised-button color="warn" (click)="toggleChecked('warn')">
+            <span *ngIf="checked === 'warn'"><mat-icon>done</mat-icon></span>
+          </button>
+        </div>
+        <br><br>
+        <hr><br>
+        
+      </div>
+      <br> 
+      <div class="direction mt-4">
+        <h2>Direction</h2>
+        <mat-radio-group>
+          <mat-radio-button value="1">Right</mat-radio-button>
+          <mat-radio-button value="2">Left</mat-radio-button>
+        </mat-radio-group>
+      </div> <br> <br><hr> <br>
+
+      <div class="navigation mt-4">
+        <h2>Navigation</h2>
+        <mat-slide-toggle>text</mat-slide-toggle>
+        <br><br> <br> <hr> <br>
+    </div>
+    
+
+    </mat-dialog-content>
+
+  </div>
+
+

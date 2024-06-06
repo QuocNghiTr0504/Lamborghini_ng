@@ -1,0 +1,25 @@
+
+<div class="card rounded">
+    <img [src]="item.photo" alt="Product Image" class="h-48 w-full object-contain hover:-translate-x-4 transform-cpu transition-transform ">
+    <div class="content p-4 flex flex-col justify-around">
+      <h2 class="text-2xl font-bold h-10  w-full">{{ item.name | uppercase }}</h2>
+      <div class="price text-lg  mt-3 font-extrabold" [class.colorPrice]="!darkMode">
+        {{item.price}}
+      </div>
+      <p class="text-sm mb-2 border-spacing-2 text- w-full">{{(showMore) ? item.description : item.description | slice:0:180}}
+        <span *ngIf="!showMore">...</span>
+        <a *ngIf="!showMore" (click)="showMore=true"> 
+          <button class="font-medium">...Show More</button>
+        </a>
+        <span *ngIf="showMore">
+          <a (click)="showMore=false">
+            <button class="font-medium">... Hide</button>
+          </a>
+        </span>
+      </p>
+    </div>
+    <div class="actions p-4 flex justify-between">
+      <button (click)="onReadMore(item.id)" class="py-2 px-4 border  rounded hover:bg-gray-200">See More</button>
+      <button class="py-2 px-4 border  rounded hover:bg-gray-200">Action 2</button>
+    </div>
+</div>

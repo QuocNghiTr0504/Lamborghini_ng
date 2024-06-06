@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    width: 90%;
+    position: relative;
+    margin-top: 9%;
+    margin-left: 5%;
+    justify-content: center !important;
+}
+
+.jtl {
+    border-color: #202020;
+    line-height: 24px;
+    padding: 35px;
+    list-style: none;
+}
+
+img {
+    max-width: 70%;
+    max-height: 70%;
+    object-fit: contain;
+    display: block;
+    margin: auto;
+}
+
+.picture {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@keyframes moveCar {
+    0% { left: -60% }
+    50% { left: calc(50% - 38%); } /* Vị trí giữa màn hình */
+    100% { left: calc(50% - 38%); } /* Vị trí giữa màn hình */
+}
+
+img {
+    position: absolute;
+    animation: moveCar 3.5s linear forwards; /* Dừng lại ở vị trí cuối cùng */
+}
+
+
+.hexagon, .icon {
+    fill: none; /* Đảm bảo bên trong là trong suốt */
+    stroke:  #fff; 
+}
+
+svg{
+    height: 48px;
+    width: 50px;
+}
+.inf{
+    display: flex;
+    align-items: center;
+}
+.see{
+    display: flex;
+    align-items: center;
+    font-size: 16px; /* Thay đổi kích thước font nếu cần */
+    margin-left: 20px;
+}
+
+
+

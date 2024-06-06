@@ -1,0 +1,13 @@
+<p>comments works!</p>
+<h2>nghi</h2>
+<br>
+<div class="wrapper">
+    <owl-carousel-o [options]="customOptions">
+      <ng-container *ngFor="let slide of slides">
+        <ng-template class="slide" carouselSlide >
+          <img [src]="slide.img">
+        </ng-template>
+      </ng-container>
+  
+    </owl-carousel-o>  
+  </div>

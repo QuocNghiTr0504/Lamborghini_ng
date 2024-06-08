@@ -67,7 +67,7 @@
 
 }
 .custom-shape-1{
-  clip-path: polygon(67% 0, 100% 0, 100% 95%,42.7% 95%);
+  clip-path: polygon(75% 0, 100% 0, 100% 95%,42.7% 95%);
 }
 .custom-shape-2{
   clip-path: polygon(42% 0, 100% 0,100% 50% ,90% 100%,10% 100%);
@@ -83,7 +83,7 @@
 }
 
 .custom-shape-5{
-  clip-path:polygon(42.7% 0, 100% 0,100% 50% ,80% 100%, 0 100%);
+  clip-path:polygon(30% 10%, 100% 10%,100% 40% ,80% 100%, 3% 100%, 3% 98%);
 }
 
 .custom-shape-6{
@@ -107,3 +107,6 @@
   padding: 2px;
 }
 
+.hey{
+  color:red
+}

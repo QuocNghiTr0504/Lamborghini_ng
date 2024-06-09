@@ -58,6 +58,11 @@
   height: 100%;
 }
 
+iframe{
+  height: 100%;
+  width: 80%;
+}
+
 .custom-shape-main{
   clip-path: polygon(60% 0, 100% 0, 100% 100%, 10% 100%);
 }

@@ -94,6 +94,10 @@
   clip-path:polygon(0 0, 69% 0,40% 100% ,0 100% );
 }
 
+.custom-shape-blog{
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 20% 50%,);
+}
+
 
 @media (max-width: 1024px) {
  .custom-shape-main, .custom-shape, .custom-shape-1, .custom-shape-2, .custom-shape-3, .custom-shape-4, .custom-shape-5, .custom-shape-6, .custom-shape-7{

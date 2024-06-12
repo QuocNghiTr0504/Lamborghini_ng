@@ -9,6 +9,7 @@ import { ProductlistComponent } from './pages/products/productlist/productlist.c
 import { userImplementsGuard } from './user--implements.guard';
 import { SignInComponent } from './pages/login/sign-in/sign-in.component';
 import { HeaderComponent } from './components/header/header.component';
+import { BloglistComponent } from './pages/blogs/bloglist/bloglist.component';
 
 const routes:Routes=[
       {
@@ -50,6 +51,10 @@ const routes:Routes=[
           {
             path:'details/:id',
             component: DetailsComponent
+          },
+          {
+            path: 'blogs',
+            component: BloglistComponent
           }
           ,
         ]

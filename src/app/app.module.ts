@@ -46,6 +46,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { SignInComponent } from './pages/login/sign-in/sign-in.component';
 import { ChartComponent } from './pages/chart/chart.component';
 import { CarouselModule } from 'ngx-owl-carousel-o';
+import { BloglistComponent } from './pages/blogs/bloglist/bloglist.component';
+import { BlogdetailComponent } from './pages/blogs/blogdetail/blogdetail.component';
 
 const routes: Routes = [
   {
@@ -71,6 +73,8 @@ const routes: Routes = [
     MainLayoutComponent,
     SignInComponent,
     ChartComponent,
+    BloglistComponent,
+    BlogdetailComponent,
   ],
   imports: [
     BrowserModule,

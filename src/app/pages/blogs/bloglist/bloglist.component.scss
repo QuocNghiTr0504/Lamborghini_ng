@@ -1,0 +1,25 @@
+*{
+   overflow-y: hidden;
+}
+
+.body{
+    margin-bottom: 5%;
+}
+
+.telegram{
+    fill: black;
+}
+
+.fadein:hover{
+    .hexagon{
+        fill: black;
+    }
+    .telegram{
+        fill: white;
+    }
+}
+
+.custom-shape-blog{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 20% 50%,);
+}
+

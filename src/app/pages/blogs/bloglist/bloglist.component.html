@@ -1,0 +1,68 @@
+<div class="body h-auto">
+    <div class="grid-cols-1 mx-32 my-3">
+        <div class="nameblog font-bold text-4xl text-left mt-16">TIN TỨC</div>
+        <div class="tittle_blog font-extrabold text-7xl text-lef py-5 mb-5">
+            THẾ GIỚI LAMBORGHINI
+        </div>
+        <div class="image">
+            <img class="object-cover" src="https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2024/06_10_sc63/cover_desk.jpg" alt="">
+        </div>
+        <div class="date text-2xl font-medium my-5">
+            10 Thang 6 2024
+        </div>
+        <div class="grid grid-cols-12 gap-4">
+            <div class="col-span-12 sm:col-span-8 tittle text-3xl font-bold">LAMBORGHINI SC63 CHUẨN BỊ RA MẮT LỊCH SỬ TẠI GIẢI LE MANS 24 HOURS</div>
+            <div class="col-span-12 sm:col-span-4 flex justify-end">
+                <div class="border border-solid hover:bg-black hover:text-white w-3/4 sm:w-1/2 h-auto p-2 flex items-center justify-center">
+                    <button class="text-base">READ MORE</button>
+                </div>
+            </div>           
+        </div>
+
+        <div class="flex my-5 bg-gray-100 p-10">
+            <div>
+                <button class="fadein text-3xl  mr-11 p-2">
+                    <a>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 77.142 89.076" width="70" height="80">
+                            <g stroke-width="1" transform="translate(-21.986 -10.699)">
+                                <!-- Hexagon Path -->
+                                <path class="hexagon light" d="M65.941,0l21.98,38.071L65.941,76.142H21.98L0,38.071,21.98,0Z" transform="translate(98.627 11.276) rotate(90)" fill="none" stroke="black"></path>
+                                <!-- Telegram Icon Path -->
+                                <path class="icon telegram" d="M57.919,65.556l-4.83,22.781c-.364,1.608-1.315,2.008-2.665,1.251l-7.36-5.424-3.551,3.416a1.848,1.848,0,0,1-1.479.722l.529-7.5L52.2,68.478c.593-.529-.129-.822-.922-.293L34.417,78.8l-7.26-2.272c-1.579-.493-1.608-1.579.329-2.337l28.4-10.94C57.2,62.762,58.348,63.548,57.919,65.556Z" transform="translate(15.445 -23)" sclae="1.5" fill="none" stroke="black"> Đọc thêm</path>
+                                    
+                            </g>
+                        </svg>
+                    </a>
+                </button>
+                
+            </div>
+            <div class="text text-black">
+                <div class="text-left text-lg font-medium">ĐIỆN TÍN CỦA LAMBORGHINI</div>
+                <div class="text-left text-2xl font-bold">THEO DÕI CHÚNG TÔI TRÊN ĐIÊN THOẠI</div>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-2" *ngFor="let item of blogList">
+            <div class="col-span-1">
+              <!-- <img class="h-[80%] w-full custom-shape-blog" [src]="item.image.image_main" alt=""> -->
+                <p>{{ item.image.image_main}}</p>
+            </div>
+            <div class="col-span-1 h-[80%] flex flex-col justify-between text-left ml-10">
+              <div class="date text-lg">{{item.date}}</div>
+              <div class="tittle font-medium">
+                <div class="catolegy line-clamp-1">{{item.category}}</div>
+                <div class="tittle_new text-2xl">
+                 {{item.tittle}}
+                </div>
+                </div>
+                <div class="border border-solid hover:opacity-80 hover:bg-black hover:text-white w-3/4 sm:w-1/2 h-auto p-2 flex items-center justify-center">
+                    <button class="text-base">READ MORE</button>
+                </div>  
+            </div>
+            <h1>{{item.image.image_main}}</h1>
+        </div>
+    </div>
+
+  
+    
+</div>

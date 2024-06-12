@@ -29,6 +29,7 @@ export class ProductlistComponent {
 
     this.httpProducts.getProduct().subscribe((data:any) => {
       this.productList = data;
+      console.log(this.productList)
       this.UpdateRenderProduct(0);
   }); 
   }

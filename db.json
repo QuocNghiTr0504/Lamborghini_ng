@@ -168,20 +168,20 @@
             "id": 1,
             "tittle": "LỄ KHAI TRƯƠNG LAMBORGHINI Ở COLOGNE",
             "date": "7 Thang 6 2024",
-            "description":[{
+            "description":{
                 "des":"Lamborghini Cologne hiện chào đón khách hàng và bạn bè của thương hiệu tại một chi nhánh mới và mang đến trải nghiệm thương hiệu ấn tượng trên diện tích khoảng 3000 mét vuông. Lamborghini đã mở một chi nhánh mới tại Cologne. Trong tòa nhà mới, tất cả khách hàng và người hâm mộ có thể trải nghiệm sự kỳ diệu của thương hiệu siêu xe thể thao Ý trên diện tích 2700 mét vuông. Khoảng 300 khách mời đã tổ chức sự kiện đặc biệt này cùng với Stephan Winkelmann, Chủ tịch và Giám đốc điều hành của Automobilei Lamborghini, Federico Foschini, Giám đốc Tiếp thị và Kinh doanh cũng như ban quản lý của Tập đoàn Moll. Chi nhánh Lamborghini tại Vitalisstrasse 206 trưng bày các mẫu xe hiện tại của thương hiệu trên diện tích 800 mét vuông và mang đến cho tất cả khách hàng cơ hội cá nhân hóa chiếc Lamborghini trong mơ của họ với sự lựa chọn gần như vô hạn về màu sắc và vật liệu trong khu vực Ad Personam. Trong Khu vực Passion, khách hàng có thể mong đợi nhiều loại xe từ chủ sở hữu trước đó được bảo quản tốt và tất cả những chiếc Lamborghini đều được bảo dưỡng theo quy định trong khu vực dịch vụ rộng 1300 mét vuông",
                 "saying":"Stephan Winkelmann giải thích: “Tôi rất vinh dự được tổ chức lễ khai trương mới này cùng với các khách hàng của thương hiệu chúng tôi” . “Cơ sở mới là bối cảnh hoàn hảo cho danh mục xe thể thao hướng tới tương lai của chúng tôi. Ngoài ra, chi nhánh hiện đại này sẽ giúp chúng tôi đáp ứng nhu cầu của khách hàng tốt hơn nữa và trong khu vực Ad Personam mới, mọi du khách không chỉ có thể mơ về chiếc Lamborghini của riêng mình mà còn có thể cá nhân hóa nó cho phù hợp với mong muốn của mình.”"
-            }],
-            "image": [{
+            },
+            "image": {
                 "image_main": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2024/06_05_sc63/cover_d.jpg",
                 "secondary_image":"https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2024/07_06_cologne/cologne_01.jpg",
-                "carousel": [{
+                "carousel": {
                     "image1":"https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2024/07_06_cologne/cologne_03.jpg",
                     "image2":"https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2024/07_06_cologne/cologne_03.jpg",
                     "image3":"https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2024/07_06_cologne/cologne_03.jpg"
 
-                }]
-            }],
+                }
+            },
             "category": "News"
             
         },
@@ -189,20 +189,41 @@
             "id": 2,
             "tittle": "LAMBORGHINI GIỚI THIỆU URUS SE TẠI PHÁP",
             "date": "5 THÁNG 7 NĂM 2024",
-            "description":[{
+            "description":{
                 "des":"Lamborghini Cologne hiện chào đón khách hàng và bạn bè của thương hiệu tại một chi nhánh mới và mang đến trải nghiệm thương hiệu ấn tượng trên diện tích khoảng 3000 mét vuông. Lamborghini đã mở một chi nhánh mới tại Cologne. Trong tòa nhà mới, tất cả khách hàng và người hâm mộ có thể trải nghiệm sự kỳ diệu của thương hiệu siêu xe thể thao Ý trên diện tích 2700 mét vuông. Khoảng 300 khách mời đã tổ chức sự kiện đặc biệt này cùng với Stephan Winkelmann, Chủ tịch và Giám đốc điều hành của Automobilei Lamborghini, Federico Foschini, Giám đốc Tiếp thị và Kinh doanh cũng như ban quản lý của Tập đoàn Moll. Chi nhánh Lamborghini tại Vitalisstrasse 206 trưng bày các mẫu xe hiện tại của thương hiệu trên diện tích 800 mét vuông và mang đến cho tất cả khách hàng cơ hội cá nhân hóa chiếc Lamborghini trong mơ của họ với sự lựa chọn gần như vô hạn về màu sắc và vật liệu trong khu vực Ad Personam. Trong Khu vực Passion, khách hàng có thể mong đợi nhiều loại xe từ chủ sở hữu trước đó được bảo quản tốt và tất cả những chiếc Lamborghini đều được bảo dưỡng theo quy định trong khu vực dịch vụ rộng 1300 mét vuông",
                 "saying":"Stephan Winkelmann giải thích: “Tôi rất vinh dự được tổ chức lễ khai trương mới này cùng với các khách hàng của thương hiệu chúng tôi” . “Cơ sở mới là bối cảnh hoàn hảo cho danh mục xe thể thao hướng tới tương lai của chúng tôi. Ngoài ra, chi nhánh hiện đại này sẽ giúp chúng tôi đáp ứng nhu cầu của khách hàng tốt hơn nữa và trong khu vực Ad Personam mới, mọi du khách không chỉ có thể mơ về chiếc Lamborghini của riêng mình mà còn có thể cá nhân hóa nó cho phù hợp với mong muốn của mình.”"
-            }],
-            "image": [{
+            },
+            "image": {
                 "image_main": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2024/06_05_se/cov.jpg",
                 "secondary_image":"https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2024/07_06_cologne/cologne_01.jpg",
-                "carousel": [{
+                "carousel": {
                     "image1":"https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2024/07_06_cologne/cologne_03.jpg",
                     "image2":"https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2024/07_06_cologne/cologne_03.jpg",
                     "image3":"https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2024/07_06_cologne/cologne_03.jpg"
 
-                }]
-            }],
+                }
+            },
+            "category": "News"
+            
+        },
+        {
+            "id": 3,
+            "tittle": "ÔTÔ LAMBORGHINI X LAVAZZA",
+            "date": "11 THÁNG 6 NĂM 2024",
+            "description":{
+                "des":"Automobilei Lamborghini và Lavazza, hai đại diện xuất sắc của Ý trong các lĩnh vực tương ứng, đã cùng nhau hợp tác.Automobilei Lamborghini, một cái tên mang tính biểu tượng trong lĩnh vực sản xuất siêu xe thể thao sang trọng và Lavazza, một trong những nhà sản xuất cà phê nổi tiếng thế giới, tự hào công bố mối quan hệ hợp tác độc quyền mới. Hai thương hiệu nổi tiếng đóng vai trò là đại sứ cho Ý trên trường toàn cầu và luôn hướng tới tương lai, cả hai đều cống hiến cho việc theo đuổi chất lượng không mệt mỏi.",
+                "saying":"Thỏa thuận được ký kết tại trụ sở lịch sử của Automobilei Lamborghini ở Sant'Agata Bolognese. Nó sẽ bắt đầu một loạt sự kiện và sáng kiến ​​nhằm làm nổi bật và giới thiệu không chỉ các sản phẩm của hai thương hiệu mà còn cả sự cống hiến chung của họ cho những trải nghiệm xuất sắc và độc đáo.Lavazza sẽ tham gia các sự kiện Automobile Lamborghini ở Ý và trên toàn thế giới, mang đến cho mọi người cơ hội thưởng thức cà phê thực sự đặc biệt. Ngoài ra, du khách đến Bảo tàng Automobilei Lamborghini sẽ có cơ hội thưởng thức cà phê Lavazza trong khi khám phá những mẫu xe mang tính biểu tượng nhất từng được sản xuất và nhân viên công ty sẽ có một khu vực đặc biệt để họ có thể nghỉ giải lao uống cà phê hạng nhất. Cùng với việc củng cố vị thế của mình trên thị trường quốc tế, sức mạnh tổng hợp giữa Automobilei Lamborghini và Lavazza mở ra những chân trời mới cho những trải nghiệm thương hiệu độc đáo.”"
+            },
+            "image": {
+                "image_main": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2024/06_11_lavazza/cover_d.jpg",
+                "secondary_image":"https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2024/06_11_lavazza/cover_d.jpg",
+                "carousel": {
+                    "image1":"https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2024/07_06_cologne/cologne_03.jpg",
+                    "image2":"https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2024/07_06_cologne/cologne_03.jpg",
+                    "image3":"https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2024/07_06_cologne/cologne_03.jpg"
+
+                }
+            },
             "category": "News"
             
         }

@@ -44,8 +44,7 @@
 
         <div class="grid grid-cols-2" *ngFor="let item of blogList">
             <div class="col-span-1">
-              <!-- <img class="h-[80%] w-full custom-shape-blog" [src]="item.image.image_main" alt=""> -->
-                <p>{{ item.image.image_main}}</p>
+              <img class="h-[80%] w-full custom-shape-blog" [src]="item.image.image_main" alt="">
             </div>
             <div class="col-span-1 h-[80%] flex flex-col justify-between text-left ml-10">
               <div class="date text-lg">{{item.date}}</div>
@@ -56,13 +55,10 @@
                 </div>
                 </div>
                 <div class="border border-solid hover:opacity-80 hover:bg-black hover:text-white w-3/4 sm:w-1/2 h-auto p-2 flex items-center justify-center">
-                    <button class="text-base">READ MORE</button>
+                    <button class="text-base" (click)="reaMoreBLog(item.id)">READ MORE</button>
                 </div>  
             </div>
-            <h1>{{item.image.image_main}}</h1>
         </div>
     </div>
-
-  
-    
+ 
 </div>

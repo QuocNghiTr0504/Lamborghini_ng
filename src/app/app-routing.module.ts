@@ -10,6 +10,7 @@ import { userImplementsGuard } from './user--implements.guard';
 import { SignInComponent } from './pages/login/sign-in/sign-in.component';
 import { HeaderComponent } from './components/header/header.component';
 import { BloglistComponent } from './pages/blogs/bloglist/bloglist.component';
+import { BlogdetailComponent } from './pages/blogs/blogdetail/blogdetail.component';
 
 const routes:Routes=[
       {
@@ -55,8 +56,13 @@ const routes:Routes=[
           {
             path: 'blogs',
             component: BloglistComponent
+          },
+          {
+            path:'blogdetails/:id',
+            component: BlogdetailComponent
           }
-          ,
+          
+          
         ]
       }
 ]

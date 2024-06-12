@@ -20,4 +20,6 @@ export class ProductitemComponent {
   onReadMore(id:number){
       this.router.navigate(['/details',id])
   }
+  
+
 }

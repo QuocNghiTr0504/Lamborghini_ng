@@ -27,6 +27,7 @@ export class GetProductsService {
 
   public getProductById(productId: number): Observable<Product> {
     const url = `${this.REST_API_PRODUCTS}/products/${productId}`;
+    console.log('url detail', url)
     return this.http.get<Product>(url, this.httpOptions).pipe(
       catchError(error => {
         console.error('Error getting product by ID:', error);

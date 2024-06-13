@@ -11,6 +11,7 @@ import { BlogService } from 'src/app/service/blog/blog.service';
 export class BloglistComponent implements OnInit {
 
   blogList:Blog[] =[];
+  lastBLogItem: Blog | null = null;
   
   constructor(private httpBlogs:BlogService, private readonly route:Router  ){
     
@@ -18,14 +19,18 @@ export class BloglistComponent implements OnInit {
 
   ngOnInit(): void {
     this.httpBlogs.getBlog().subscribe((data: Blog[])=>{
-      this.blogList = data;
-     
-    console.log('Blog List:', this.blogList);
-    this.blogList.forEach(blog => {
-      console.log('Image Object:', blog.image); // Kiểm tra toàn bộ đối tượng image
-    });
+        this.blogList = data;
+        console.log(this.blogList[-1])
+        console.log(this.blogList[-2])
+
+      this.lastBLogItem = this.blogList[this.blogList.length - 1];
+
+      if(this.blogList.length > 0) {
+        this.blogList= this.blogList.slice(0,-1).reverse();
+      }  
     })
   }
+
   reaMoreBLog(id:number){
     this.route.navigate(['/blogdetails',id])
   }

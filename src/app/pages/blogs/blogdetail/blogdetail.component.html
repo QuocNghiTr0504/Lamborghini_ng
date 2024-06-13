@@ -1,7 +1,27 @@
 <p>blogdetail works!</p>
 
-<div *ngFor="let i of detailBlog">
-    <div>{{i.id}}</div>
-    <div>{{i.tittle}}</div>
+<div class="body grid-cols-1 mx-32 my-3" *ngFor="let item of detailBlog">
+    <div class="tittle_blog font-extrabold text-7xl text-lef py-5 mb-5">
+        {{item.tittle}}
+    </div>
+    <div class="image">
+        <img class="object-cover" [src]="item.image.image_main" alt="">
+    </div>
+    
+    <div class="date text-2xl font-light my-5">
+        {{item.date}}
+    </div>
 
+    <div class="descript py-3 text-lg leading-8" >
+        {{item.description.des}}
+    </div>
+
+    <div class="grid grid-cols-2 gap-5 py-5">
+        <div class="iamge_second">
+            <img class="object-cover h-full" [src]="item.image.secondary_image" alt="">
+        </div>
+        <div class="saying italic text-left p-2 text-lg my-auto leading-8 tracking-widest">
+            {{item.description.saying}}
+        </div>  
+    </div>
 </div>

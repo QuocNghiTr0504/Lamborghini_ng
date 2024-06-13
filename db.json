@@ -166,15 +166,15 @@
     "blogs":[
         {
             "id": 1,
-            "tittle": "LỄ KHAI TRƯƠNG LAMBORGHINI Ở COLOGNE",
-            "date": "7 Thang 6 2024",
+            "tittle": "LAMBORGHINI SC63: CÂU CHUYỆN CHO ĐẾN NAY",
+            "date": "5 THÁNG 5 NĂM 2024",
             "description":{
-                "des":"Lamborghini Cologne hiện chào đón khách hàng và bạn bè của thương hiệu tại một chi nhánh mới và mang đến trải nghiệm thương hiệu ấn tượng trên diện tích khoảng 3000 mét vuông. Lamborghini đã mở một chi nhánh mới tại Cologne. Trong tòa nhà mới, tất cả khách hàng và người hâm mộ có thể trải nghiệm sự kỳ diệu của thương hiệu siêu xe thể thao Ý trên diện tích 2700 mét vuông. Khoảng 300 khách mời đã tổ chức sự kiện đặc biệt này cùng với Stephan Winkelmann, Chủ tịch và Giám đốc điều hành của Automobilei Lamborghini, Federico Foschini, Giám đốc Tiếp thị và Kinh doanh cũng như ban quản lý của Tập đoàn Moll. Chi nhánh Lamborghini tại Vitalisstrasse 206 trưng bày các mẫu xe hiện tại của thương hiệu trên diện tích 800 mét vuông và mang đến cho tất cả khách hàng cơ hội cá nhân hóa chiếc Lamborghini trong mơ của họ với sự lựa chọn gần như vô hạn về màu sắc và vật liệu trong khu vực Ad Personam. Trong Khu vực Passion, khách hàng có thể mong đợi nhiều loại xe từ chủ sở hữu trước đó được bảo quản tốt và tất cả những chiếc Lamborghini đều được bảo dưỡng theo quy định trong khu vực dịch vụ rộng 1300 mét vuông",
-                "saying":"Stephan Winkelmann giải thích: “Tôi rất vinh dự được tổ chức lễ khai trương mới này cùng với các khách hàng của thương hiệu chúng tôi” . “Cơ sở mới là bối cảnh hoàn hảo cho danh mục xe thể thao hướng tới tương lai của chúng tôi. Ngoài ra, chi nhánh hiện đại này sẽ giúp chúng tôi đáp ứng nhu cầu của khách hàng tốt hơn nữa và trong khu vực Ad Personam mới, mọi du khách không chỉ có thể mơ về chiếc Lamborghini của riêng mình mà còn có thể cá nhân hóa nó cho phù hợp với mong muốn của mình.”"
+                "des":"Giải đua Le Mans 24 giờ mang tính biểu tượng, sẽ diễn ra vào tuần tới vào cuối tuần từ ngày 15 đến ngày 16 tháng 6, sẽ đánh dấu nửa chặng đường trong mùa giải đua đầu tiên của Lamborghini SC63 ở hạng nhất của cả Giải vô địch sức bền thế giới FIA (hạng Hypercar) và Giải vô địch xe thể thao IMSA WeatherTech (hạng GTP). \n Cạnh tranh với hàng loạt thương hiệu đã có tên tuổi ở đẳng cấp cao nhất, Lamborghini và nhóm đối tác Iron Lynx đã đạt được tiến bộ đáng kể với mẫu xe đua nguyên mẫu chuyên dụng đầu tiên được phát triển bởi bộ phận đua xe của công ty Sant'Agata Bolognese, Squadra Corse.",
+                "saying":"Nền tảng cho kết quả cải thiện trên đường đua và độ tin cậy đáng khích lệ của SC63 là tinh thần làm việc và nỗ lực đáng kinh ngạc từ các thợ máy, kỹ sư, kỹ thuật viên và người lái xe trong đội Lamborghini Squadra Corse và Iron Lynx, phần lớn trong số đó làm việc trên cả WEC và các dự án IMSA Trong khoảng thời gian tương đối ngắn kể từ khi xe chính thức ra mắt vào mùa hè năm ngoái, SC63 đã đạt được những kết quả khả quan và ghi điểm ở cả hai giải vô địch.”"
             },
             "image": {
                 "image_main": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2024/06_05_sc63/cover_d.jpg",
-                "secondary_image":"https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2024/07_06_cologne/cologne_01.jpg",
+                "secondary_image":"https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2024/06_05_sc63/c1.jpg",
                 "carousel": {
                     "image1":"https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2024/07_06_cologne/cologne_03.jpg",
                     "image2":"https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2024/07_06_cologne/cologne_03.jpg",
@@ -188,14 +188,14 @@
         {
             "id": 2,
             "tittle": "LAMBORGHINI GIỚI THIỆU URUS SE TẠI PHÁP",
-            "date": "5 THÁNG 7 NĂM 2024",
+            "date": "7 THÁNG 5 NĂM 2024",
             "description":{
-                "des":"Lamborghini Cologne hiện chào đón khách hàng và bạn bè của thương hiệu tại một chi nhánh mới và mang đến trải nghiệm thương hiệu ấn tượng trên diện tích khoảng 3000 mét vuông. Lamborghini đã mở một chi nhánh mới tại Cologne. Trong tòa nhà mới, tất cả khách hàng và người hâm mộ có thể trải nghiệm sự kỳ diệu của thương hiệu siêu xe thể thao Ý trên diện tích 2700 mét vuông. Khoảng 300 khách mời đã tổ chức sự kiện đặc biệt này cùng với Stephan Winkelmann, Chủ tịch và Giám đốc điều hành của Automobilei Lamborghini, Federico Foschini, Giám đốc Tiếp thị và Kinh doanh cũng như ban quản lý của Tập đoàn Moll. Chi nhánh Lamborghini tại Vitalisstrasse 206 trưng bày các mẫu xe hiện tại của thương hiệu trên diện tích 800 mét vuông và mang đến cho tất cả khách hàng cơ hội cá nhân hóa chiếc Lamborghini trong mơ của họ với sự lựa chọn gần như vô hạn về màu sắc và vật liệu trong khu vực Ad Personam. Trong Khu vực Passion, khách hàng có thể mong đợi nhiều loại xe từ chủ sở hữu trước đó được bảo quản tốt và tất cả những chiếc Lamborghini đều được bảo dưỡng theo quy định trong khu vực dịch vụ rộng 1300 mét vuông",
-                "saying":"Stephan Winkelmann giải thích: “Tôi rất vinh dự được tổ chức lễ khai trương mới này cùng với các khách hàng của thương hiệu chúng tôi” . “Cơ sở mới là bối cảnh hoàn hảo cho danh mục xe thể thao hướng tới tương lai của chúng tôi. Ngoài ra, chi nhánh hiện đại này sẽ giúp chúng tôi đáp ứng nhu cầu của khách hàng tốt hơn nữa và trong khu vực Ad Personam mới, mọi du khách không chỉ có thể mơ về chiếc Lamborghini của riêng mình mà còn có thể cá nhân hóa nó cho phù hợp với mong muốn của mình.”"
+                "des":"Chủ tịch kiêm Giám đốc điều hành Automobile Lamborghini Stephan Winkelmann và Federico Foschini, Giám đốc Tiếp thị và Bán hàng, đã giới thiệu Urus SE, mẫu SUV plug-in hybrid đầu tiên của thương hiệu cho khách hàng Pháp.\\nĐịa điểm, một biệt thự sang trọng ở đỉnh cao của Cannes, miền nam nước Pháp, đã đón hơn 400 vị khách châu Âu đến gặp chiếc SUV mang tính cách mạng, thể hiện cam kết của Lamborghini đối với sự đổi mới và bền vững, trong khi vẫn giữ được DNA mang tính biểu tượng về hiệu suất và sự sang trọng.Với Urus SE, Lamborghini đã có một bước tiến lớn trong quá trình phát triển bằng cách tích hợp các công nghệ hybrid tiên tiến vào xe của mình. Mẫu xe mới kết hợp động cơ V8 4.0 lít tăng áp kép sản sinh công suất 620 mã lực với động cơ điện công suất 192 mã lực, cho tổng công suất 800 CV. Cấu hình hybrid này không chỉ mang lại hiệu suất vượt trội mà còn giảm 80% lượng khí thải CO 2 , nhấn mạnh cam kết của thương hiệu đối với các mục tiêu môi trường.",
+                "saying":"Stephan Winkelmann cho biết: “Chúng tôi rất vui mừng khi có thể giới thiệu Urus SE, chiếc SUV mạnh mẽ nhất trên thị trường, lần đầu tiên tại Pháp, chỉ vài tuần sau khi ra mắt thế giới tại Triển lãm ô tô Bắc Kinh” .\\nNhờ điện khí hóa, Urus SE đạt được mức hiệu suất ấn tượng và tiếp tục đưa Lamborghini hướng tới các mục tiêu bền vững được đặt ra trong chiến lược khử cacbon của chúng tôi, Direzione Cor Tauri.”"
             },
             "image": {
                 "image_main": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2024/06_05_se/cov.jpg",
-                "secondary_image":"https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2024/07_06_cologne/cologne_01.jpg",
+                "secondary_image":"https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2024/06_05_se/cannes_01.jpg",
                 "carousel": {
                     "image1":"https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2024/07_06_cologne/cologne_03.jpg",
                     "image2":"https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2024/07_06_cologne/cologne_03.jpg",
@@ -208,15 +208,15 @@
         },
         {
             "id": 3,
-            "tittle": "ÔTÔ LAMBORGHINI X LAVAZZA",
-            "date": "11 THÁNG 6 NĂM 2024",
+            "tittle": "LAMBORGHINI SC63 CHUẨN BỊ RA MẮT LỊCH SỬ TẠI GIẢI LE MANS 24 HOURS",
+            "date": "11 THÁNG 5 NĂM 2024",
             "description":{
-                "des":"Automobilei Lamborghini và Lavazza, hai đại diện xuất sắc của Ý trong các lĩnh vực tương ứng, đã cùng nhau hợp tác.Automobilei Lamborghini, một cái tên mang tính biểu tượng trong lĩnh vực sản xuất siêu xe thể thao sang trọng và Lavazza, một trong những nhà sản xuất cà phê nổi tiếng thế giới, tự hào công bố mối quan hệ hợp tác độc quyền mới. Hai thương hiệu nổi tiếng đóng vai trò là đại sứ cho Ý trên trường toàn cầu và luôn hướng tới tương lai, cả hai đều cống hiến cho việc theo đuổi chất lượng không mệt mỏi.",
-                "saying":"Thỏa thuận được ký kết tại trụ sở lịch sử của Automobilei Lamborghini ở Sant'Agata Bolognese. Nó sẽ bắt đầu một loạt sự kiện và sáng kiến ​​nhằm làm nổi bật và giới thiệu không chỉ các sản phẩm của hai thương hiệu mà còn cả sự cống hiến chung của họ cho những trải nghiệm xuất sắc và độc đáo.Lavazza sẽ tham gia các sự kiện Automobile Lamborghini ở Ý và trên toàn thế giới, mang đến cho mọi người cơ hội thưởng thức cà phê thực sự đặc biệt. Ngoài ra, du khách đến Bảo tàng Automobilei Lamborghini sẽ có cơ hội thưởng thức cà phê Lavazza trong khi khám phá những mẫu xe mang tính biểu tượng nhất từng được sản xuất và nhân viên công ty sẽ có một khu vực đặc biệt để họ có thể nghỉ giải lao uống cà phê hạng nhất. Cùng với việc củng cố vị thế của mình trên thị trường quốc tế, sức mạnh tổng hợp giữa Automobilei Lamborghini và Lavazza mở ra những chân trời mới cho những trải nghiệm thương hiệu độc đáo.”"
+                "des":"Số 63 của Bortolotti-Kvyat-Mortara cùng với Cairoli-Caldarelli-Grosjean ở số 19 cho chiếc Lamborghini Iron Lynx cổ điển về sức bền của FIA WEC sẽ bắt đầu cuộc đua quan trọng nhất trong lịch sử của mình vào cuối tuần này khi nó chuẩn bị chiến đấu để giành lấy những danh hiệu hoàn toàn tại 24 Hours của Le Mans với cặp nguyên mẫu Lamborghini SC63 LMDh ở vòng 4 Giải vô địch sức bền thế giới FIA.",
+                "saying":"Edoardo Mortara trở lại tham dự FIA WEC # 63 cả mùa, cùng với Mirko Bortolotti và Daniil Kvyat, trong khi Andrea Caldarelli sẽ xếp hàng cùng các đồng đội IMSA thường xuyên là Romain Grosjean và Matteo Cairoli trên chiếc xe số 19, sẽ tạo nên FIA WEC. ra mắt ở Pháp. Lamborghini cũng sẽ cạnh tranh giành chiến lợi phẩm LMGT3 với hai chiếc Huracán GT3 EVO2. Sau khi giành được bục vinh quang FIA WEC đầu tiên tại Spa-Francorchamps, Franck Perera, Claudio Schiavoni và Matteo Cressoni sẽ lại hợp tác trên chiếc xe số 60 trong khi Michelle Gatting, Sarah Bovy và Rahel Frey tiếp tục trên chiếc xe số 85 Iron Dames. Các Dames buộc phải thay đổi muộn đối với mục nhập của họ sau chấn thương xương sườn đáng tiếc của Doriane Pin, người ban đầu được lên kế hoạch lái xe.”"
             },
             "image": {
-                "image_main": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2024/06_11_lavazza/cover_d.jpg",
-                "secondary_image":"https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2024/06_11_lavazza/cover_d.jpg",
+                "image_main": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2024/06_10_sc63/cover_desk.jpg",
+                "secondary_image":"https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2024/06_10_sc63/c1.jpg",
                 "carousel": {
                     "image1":"https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2024/07_06_cologne/cologne_03.jpg",
                     "image2":"https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2024/07_06_cologne/cologne_03.jpg",
@@ -225,6 +225,69 @@
                 }
             },
             "category": "News"
+            
+        },
+        {
+            "id": 4,
+            "tittle": "CUỘC PHỎNG VẤN VỚI ĐỒNG HỒ: ĐO TỪ XA X",
+            "date": "1 THÁNG 6 NĂM 2024",
+            "description":{
+                "des":"Trong cuộc phỏng vấn kéo dài 63 giây này – con số gợi nhớ đến ngày thành lập công ty vào năm 1963 – chúng ta sẽ tìm hiểu thêm về việc triển khai khái niệm Telemetry X. Costanza từ Phân tích dữ liệu kết nối và Filippo từ Hành trình khách hàng thế hệ tiếp theo cho chúng tôi biết họ đã cố gắng tưởng tượng ra trải nghiệm tuyệt vời cho khách hàng trong khi tận dụng tối ưu các công nghệ mới như thế nào. Nhờ sự đóng góp của toàn đội, Costanza và Filippo đã có thể đoán trước được tương lai của việc lái những chiếc Lamborghini trên đường đua bằng cách kết hợp tất cả các ý tưởng và làm cho chúng nhất quán. Tìm hiểu thêm trong cuộc phỏng vấn “chống đồng hồ” của họ !",
+                "saying":"Thỏa thuận được ký kết tại trụ sở lịch sử của Automobilei Lamborghini ở Sant'Agata Bolognese. Nó sẽ bắt đầu một loạt sự kiện và sáng kiến ​​nhằm làm nổi bật và giới thiệu không chỉ các sản phẩm của hai thương hiệu mà còn cả sự cống hiến chung của họ cho những trải nghiệm xuất sắc và độc đáo.Lavazza sẽ tham gia các sự kiện Automobile Lamborghini ở Ý và trên toàn thế giới, mang đến cho mọi người cơ hội thưởng thức cà phê thực sự đặc biệt. Ngoài ra, du khách đến Bảo tàng Automobilei Lamborghini sẽ có cơ hội thưởng thức cà phê Lavazza trong khi khám phá những mẫu xe mang tính biểu tượng nhất từng được sản xuất và nhân viên công ty sẽ có một khu vực đặc biệt để họ có thể nghỉ giải lao uống cà phê hạng nhất. Cùng với việc củng cố vị thế của mình trên thị trường quốc tế, sức mạnh tổng hợp giữa Automobilei Lamborghini và Lavazza mở ra những chân trời mới cho những trải nghiệm thương hiệu độc đáo.”"
+            },
+            "image": {
+                "image_main": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2024/06_04_clock/cover_people.jpg",
+                "secondary_image":"https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2024/06_11_lavazza/cover_d.jpg",
+                "carousel": {
+                    "image1":"https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2024/07_06_cologne/cologne_03.jpg",
+                    "image2":"https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2024/07_06_cologne/cologne_03.jpg",
+                    "image3":"https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2024/07_06_cologne/cologne_03.jpg"
+
+                }
+            },
+            "category": "Interview"
+            
+        },
+        {
+            "id": 5,
+            "tittle": "LAVAZZA X AUTOMOBILE LAMBORGHINI",
+            "date": "3 THÁNG 6 NĂM 2024",
+            "description":{
+                "des":"Automobilei Lamborghini và Lavazza, hai đại diện xuất sắc của Ý trong các lĩnh vực tương ứng, đã cùng nhau hợp tác. Automobilei Lamborghini, một cái tên mang tính biểu tượng trong lĩnh vực sản xuất siêu xe thể thao sang trọng và Lavazza, một trong những nhà sản xuất cà phê nổi tiếng thế giới, tự hào công bố mối quan hệ hợp tác độc quyền mới. Hai thương hiệu nổi tiếng đóng vai trò là đại sứ cho Ý trên trường toàn cầu và luôn hướng tới tương lai, cả hai đều cống hiến cho việc theo đuổi chất lượng không mệt mỏi.”",
+                "saying":"Thỏa thuận được ký kết tại trụ sở lịch sử của Automobilei Lamborghini ở Sant'Agata Bolognese. Nó sẽ bắt đầu một loạt sự kiện và sáng kiến ​​nhằm làm nổi bật và giới thiệu không chỉ các sản phẩm của hai thương hiệu mà còn cả sự cống hiến chung của họ cho những trải nghiệm xuất sắc và độc đáo.Lavazza sẽ tham gia các sự kiện Automobile Lamborghini ở Ý và trên toàn thế giới, mang đến cho mọi người cơ hội thưởng thức cà phê thực sự đặc biệt. Ngoài ra, du khách đến Bảo tàng Automobilei Lamborghini sẽ có cơ hội thưởng thức cà phê Lavazza trong khi khám phá những mẫu xe mang tính biểu tượng nhất từng được sản xuất và nhân viên công ty sẽ có một khu vực đặc biệt để họ có thể nghỉ giải lao uống cà phê hạng nhất. Cùng với việc củng cố vị thế của mình trên thị trường quốc tế, sức mạnh tổng hợp giữa Automobilei Lamborghini và Lavazza mở ra những chân trời mới cho những trải nghiệm thương hiệu độc đáo."
+            },
+            "image": {
+                "image_main": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2024/06_11_lavazza/lavazza_cover.jpg",
+                "secondary_image":"https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2024/06_11_lavazza/c1.jpg",
+                "carousel": {
+                    "image1":"https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2024/07_06_cologne/cologne_03.jpg",
+                    "image2":"https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2024/07_06_cologne/cologne_03.jpg",
+                    "image3":"https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2024/07_06_cologne/cologne_03.jpg"
+
+                }
+            },
+            "category": "Interview"
+            
+        },
+        {
+            "id": 6,
+            "tittle": "LỄ KHAI TRƯƠNG LAMBORGHINI Ở COLOGNE",
+            "date": "7 THÁNG 6 NĂM 2024",
+            "description":{
+                "des":"Lamborghini Cologne hiện chào đón khách hàng và bạn bè của thương hiệu tại một chi nhánh mới và mang đến trải nghiệm thương hiệu ấn tượng trên diện tích khoảng 3000 mét vuông. Lamborghini đã mở một chi nhánh mới tại Cologne. Trong tòa nhà mới, tất cả khách hàng và người hâm mộ có thể trải nghiệm sự kỳ diệu của thương hiệu siêu xe thể thao Ý trên diện tích 2700 mét vuông. Khoảng 300 khách mời đã tổ chức sự kiện đặc biệt này cùng với Stephan Winkelmann, Chủ tịch và Giám đốc điều hành của Automobilei Lamborghini, Federico Foschini, Giám đốc Tiếp thị và Kinh doanh cũng như ban quản lý của Tập đoàn Moll.Chi nhánh Lamborghini tại Vitalisstrasse 206 trưng bày các mẫu xe hiện tại của thương hiệu trên diện tích 800 mét vuông và mang đến cho tất cả khách hàng cơ hội cá nhân hóa chiếc Lamborghini trong mơ của họ với sự lựa chọn gần như vô hạn về màu sắc và vật liệu trong khu vực Ad Personam. Trong Khu vực Passion, khách hàng có thể mong đợi nhiều loại xe từ chủ sở hữu trước đó được bảo quản tốt và tất cả những chiếc Lamborghini đều được bảo dưỡng theo quy định trong khu vực dịch vụ rộng 1300 mét vuông.”",
+                "saying":"Stephan Winkelmann giải thích: “Tôi rất vinh dự được tổ chức lễ khai trương mới này cùng với các khách hàng của thương hiệu chúng tôi” . “Cơ sở mới là bối cảnh hoàn hảo cho danh mục xe thể thao hướng tới tương lai của chúng tôi. Ngoài ra, chi nhánh hiện đại này sẽ giúp chúng tôi đáp ứng nhu cầu của khách hàng tốt hơn nữa và trong khu vực Ad Personam mới, mọi du khách không chỉ có thể mơ về chiếc Lamborghini của riêng mình mà còn có thể cá nhân hóa nó cho phù hợp với mong muốn của mình.”"
+            },
+            "image": {
+                "image_main": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2024/07_06_cologne/cologne_cover.jpg",
+                "secondary_image":"https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2024/07_06_cologne/cologne_01.jpg",
+                "carousel": {
+                    "image1":"https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2024/07_06_cologne/cologne_03.jpg",
+                    "image2":"https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2024/07_06_cologne/cologne_03.jpg",
+                    "image3":"https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2024/07_06_cologne/cologne_03.jpg"
+
+                }
+            },
+            "category": "Interview"
             
         }
     ]

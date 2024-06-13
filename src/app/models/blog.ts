@@ -3,7 +3,7 @@ export interface Blog {
     date: string;
     tittle: string;
     image: Image;
-    description: Description[];
+    description: Description;
     category: string;
   }
   

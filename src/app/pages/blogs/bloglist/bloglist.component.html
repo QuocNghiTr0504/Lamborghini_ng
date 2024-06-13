@@ -1,24 +1,26 @@
 <div class="body h-auto">
-    <div class="grid-cols-1 mx-32 my-3">
+    <div class="grid-cols-1 mx-32 my-3" >
         <div class="nameblog font-bold text-4xl text-left mt-16">TIN TỨC</div>
-        <div class="tittle_blog font-extrabold text-7xl text-lef py-5 mb-5">
-            THẾ GIỚI LAMBORGHINI
+        <div class="div" *ngIf="lastBLogItem">
+            <div class="tittle_blog font-extrabold text-7xl text-lef py-5 mb-5">
+                {{lastBLogItem.tittle}}
+            </div>
+            <div class="image">
+                <img class="object-cover" [src]="lastBLogItem.image.image_main" alt="">
+            </div>
+            
+            <div class="date text-2xl font-medium my-5">
+                {{lastBLogItem.date}}
+            </div>
+            <div class="grid grid-cols-12 gap-4">
+                <div class="col-span-12 sm:col-span-8 tittle text-3xl font-bold">LAMBORGHINI SC63 CHUẨN BỊ RA MẮT LỊCH SỬ TẠI GIẢI LE MANS 24 HOURS</div>
+                <div class="col-span-12 sm:col-span-4 flex justify-end">
+                    <div class="border border-solid hover:bg-black hover:text-white w-3/4 sm:w-1/2 h-auto p-2 flex items-center justify-center">
+                        <button (click)="reaMoreBLog(lastBLogItem.id)" class="text-base">READ MORE</button>
+                    </div>
+                </div>           
+            </div>
         </div>
-        <div class="image">
-            <img class="object-cover" src="https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2024/06_10_sc63/cover_desk.jpg" alt="">
-        </div>
-        <div class="date text-2xl font-medium my-5">
-            10 Thang 6 2024
-        </div>
-        <div class="grid grid-cols-12 gap-4">
-            <div class="col-span-12 sm:col-span-8 tittle text-3xl font-bold">LAMBORGHINI SC63 CHUẨN BỊ RA MẮT LỊCH SỬ TẠI GIẢI LE MANS 24 HOURS</div>
-            <div class="col-span-12 sm:col-span-4 flex justify-end">
-                <div class="border border-solid hover:bg-black hover:text-white w-3/4 sm:w-1/2 h-auto p-2 flex items-center justify-center">
-                    <button class="text-base">READ MORE</button>
-                </div>
-            </div>           
-        </div>
-
         <div class="flex my-5 bg-gray-100 p-10">
             <div>
                 <button class="fadein text-3xl  mr-11 p-2">

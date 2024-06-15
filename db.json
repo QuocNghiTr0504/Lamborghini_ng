@@ -179,7 +179,6 @@
                     "image1":"https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2024/07_06_cologne/cologne_03.jpg",
                     "image2":"https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2024/07_06_cologne/cologne_03.jpg",
                     "image3":"https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2024/07_06_cologne/cologne_03.jpg"
-
                 }
             },
             "category": "News"
@@ -200,7 +199,6 @@
                     "image1":"https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2024/07_06_cologne/cologne_03.jpg",
                     "image2":"https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2024/07_06_cologne/cologne_03.jpg",
                     "image3":"https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2024/07_06_cologne/cologne_03.jpg"
-
                 }
             },
             "category": "News"
@@ -221,7 +219,6 @@
                     "image1":"https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2024/07_06_cologne/cologne_03.jpg",
                     "image2":"https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2024/07_06_cologne/cologne_03.jpg",
                     "image3":"https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2024/07_06_cologne/cologne_03.jpg"
-
                 }
             },
             "category": "News"
@@ -242,7 +239,6 @@
                     "image1":"https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2024/07_06_cologne/cologne_03.jpg",
                     "image2":"https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2024/07_06_cologne/cologne_03.jpg",
                     "image3":"https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2024/07_06_cologne/cologne_03.jpg"
-
                 }
             },
             "category": "Interview"
@@ -263,7 +259,6 @@
                     "image1":"https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2024/07_06_cologne/cologne_03.jpg",
                     "image2":"https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2024/07_06_cologne/cologne_03.jpg",
                     "image3":"https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2024/07_06_cologne/cologne_03.jpg"
-
                 }
             },
             "category": "Interview"
@@ -284,11 +279,30 @@
                     "image1":"https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2024/07_06_cologne/cologne_03.jpg",
                     "image2":"https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2024/07_06_cologne/cologne_03.jpg",
                     "image3":"https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2024/07_06_cologne/cologne_03.jpg"
-
                 }
             },
             "category": "Interview"
             
+        },
+        {
+            "id": 7,
+            "tittle": "CUỘC ĐUA KỸ THUẬT SỐ LAMBORGHINI HACKATHON 2024",
+            "date": "7 THÁNG 6 NĂM 2024",
+            "description":{
+                "des":"Lamborghini Cologne hiện chào đón khách hàng và bạn bè của thương hiệu tại một chi nhánh mới và mang đến trải nghiệm thương hiệu ấn tượng trên diện tích khoảng 3000 mét vuông. Lamborghini đã mở một chi nhánh mới tại Cologne. Trong tòa nhà mới, tất cả khách hàng và người hâm mộ có thể trải nghiệm sự kỳ diệu của thương hiệu siêu xe thể thao Ý trên diện tích 2700 mét vuông. Khoảng 300 khách mời đã tổ chức sự kiện đặc biệt này cùng với Stephan Winkelmann, Chủ tịch và Giám đốc điều hành của Automobilei Lamborghini, Federico Foschini, Giám đốc Tiếp thị và Kinh doanh cũng như ban quản lý của Tập đoàn Moll.Chi nhánh Lamborghini tại Vitalisstrasse 206 trưng bày các mẫu xe hiện tại của thương hiệu trên diện tích 800 mét vuông và mang đến cho tất cả khách hàng cơ hội cá nhân hóa chiếc Lamborghini trong mơ của họ với sự lựa chọn gần như vô hạn về màu sắc và vật liệu trong khu vực Ad Personam. Trong Khu vực Passion, khách hàng có thể mong đợi nhiều loại xe từ chủ sở hữu trước đó được bảo quản tốt và tất cả những chiếc Lamborghini đều được bảo dưỡng theo quy định trong khu vực dịch vụ rộng 1300 mét vuông.”",
+                "saying":"Stephan Winkelmann giải thích: “Tôi rất vinh dự được tổ chức lễ khai trương mới này cùng với các khách hàng của thương hiệu chúng tôi” . “Cơ sở mới là bối cảnh hoàn hảo cho danh mục xe thể thao hướng tới tương lai của chúng tôi. Ngoài ra, chi nhánh hiện đại này sẽ giúp chúng tôi đáp ứng nhu cầu của khách hàng tốt hơn nữa và trong khu vực Ad Personam mới, mọi du khách không chỉ có thể mơ về chiếc Lamborghini của riêng mình mà còn có thể cá nhân hóa nó cho phù hợp với mong muốn của mình.”"
+            },
+            "image": {
+                "image_main": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2024/06_11_hackaton/hackaton_cover.jpg",
+                "secondary_image":"https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2024/07_06_cologne/cologne_01.jpg",
+                "carousel": {
+                    "image1":"https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2024/07_06_cologne/cologne_03.jpg",
+                    "image2":"https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2024/07_06_cologne/cologne_03.jpg",
+                    "image3":"https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2024/07_06_cologne/cologne_03.jpg"
+
+                }
+            },
+            "category": "Interview"
         }
     ]
 

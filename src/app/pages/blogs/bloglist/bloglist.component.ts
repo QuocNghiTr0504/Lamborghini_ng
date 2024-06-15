@@ -19,9 +19,8 @@ export class BloglistComponent implements OnInit {
 
   ngOnInit(): void {
     this.httpBlogs.getBlog().subscribe((data: Blog[])=>{
-        this.blogList = data;
-        console.log(this.blogList[-1])
-        console.log(this.blogList[-2])
+      this.blogList = data;
+      console.log('DATA',this.blogList )
 
       this.lastBLogItem = this.blogList[this.blogList.length - 1];
 

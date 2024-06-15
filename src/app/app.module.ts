@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, CUSTOM_ELEMENTS_SCHEMA} from '@angular/core';
 
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
@@ -35,7 +35,6 @@ import { HeaderComponent } from './components/header/header.component';
 
 import { RouterLink, RouterModule, Routes } from '@angular/router';
 
-
 import { HttpClientModule } from '@angular/common/http';
 import { ModalComponent } from './components/modal/modal/modal.component';
 import { DetailsComponent } from './pages/details/details.component';
@@ -48,7 +47,9 @@ import { ChartComponent } from './pages/chart/chart.component';
 import { CarouselModule } from 'ngx-owl-carousel-o';
 import { BloglistComponent } from './pages/blogs/bloglist/bloglist.component';
 import { BlogdetailComponent } from './pages/blogs/blogdetail/blogdetail.component';
-
+import { register } from 'swiper/element/bundle';
+// register Swiper custom elements
+register();
 const routes: Routes = [
   {
     path: '',
@@ -99,10 +100,12 @@ const routes: Routes = [
     }),
     ReactiveFormsModule,
     FormsModule,
-    CarouselModule
+    CarouselModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA]
 
 })
 export class AppModule { }

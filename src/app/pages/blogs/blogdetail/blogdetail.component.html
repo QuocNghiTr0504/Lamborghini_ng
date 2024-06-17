@@ -1,44 +1,57 @@
-<p>blogdetail works!</p>
-
-<div class="body grid-cols-1 mx-32 my-3" *ngFor="let item of detailBlog">
-    <div class="tittle_blog font-extrabold text-7xl text-lef py-5 mb-5">
-        {{item.tittle}}
-    </div>
-    <div class="image">
-        <img class="object-cover" [src]="item.image.image_main" alt="">
-    </div>
-    
-    <div class="date text-2xl font-light my-5">
-        {{item.date}}
-    </div>
-
-    <div class="descript py-3 text-lg leading-8" >
-        {{item.description.des}}
-    </div>
-
-    <div class="grid grid-cols-2 gap-5 py-5">
+<div *ngIf="detailBlog$ | async as detailBlog" class="main">
+    <div class="grid-cols-1 mx-28 my-3">
+      <div class="tittle_blog font-extrabold text-7xl text-lef py-5 mb-5">
+        {{ detailBlog.tittle }}
+      </div>
+      <div class="image">
+        <img class="object-cover" [src]="detailBlog.image.image_main" alt="">
+      </div>
+      <div class="date text-2xl font-light my-5">
+        {{ detailBlog.date }}
+      </div>
+      <div class="descript py-3 text-lg leading-8">
+        {{ detailBlog.description.des }}
+      </div>
+      <div class="grid grid-cols-2 gap-5 py-5">
         <div class="iamge_second">
-            <img class="object-cover h-full" [src]="item.image.secondary_image" alt="">
+          <img class="object-cover h-full" [src]="detailBlog.image.secondary_image" alt="">
         </div>
         <div class="saying italic text-left p-2 text-lg my-auto leading-8 tracking-widest">
-            {{item.description.saying}}
-        </div>  
+          {{ detailBlog.description.saying }}
+        </div>
+      </div>
     </div>
-    <h1>hello</h1>
-    <swiper-container  pagination="true" effect="coverflow" grab-cursor="true" centered-slides="true"
-    slides-per-view="auto" coverflow-effect-rotate="50" coverflow-effect-stretch="0" coverflow-effect-depth="100"
-    coverflow-effect-modifier="1" coverflow-effect-slide-shadows="true" autoplay-delay="2000">
-       
-        <swiper-slide>
-            <img src="https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2024/06_11_lavazza/s1.jpg" alt="">
+  
+    <div class="carousel_swiper">
+      <swiper-container pagination="true" effect="coverflow" grab-cursor="true" centered-slides="true"
+        slides-per-view="auto" coverflow-effect-rotate="50" coverflow-effect-stretch="0" coverflow-effect-depth="100"
+        coverflow-effect-modifier="1" coverflow-effect-slide-shadows="true" autoplay-delay="2000" speed="1500">
+        <swiper-slide *ngFor="let carouselImage of detailBlog.image.carousel | keyvalue">
+          <img class="w-full h-full object-cover" [src]="carouselImage.value" alt="">
         </swiper-slide>
-        <swiper-slide>
-            <img src="https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2024/06_11_lavazza/s2.jpg" alt="">
-        </swiper-slide>
-        <swiper-slide>
-            <img src="https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2024/06_11_lavazza/s3.jpg" alt="">
-        </swiper-slide>
-        ...
       </swiper-container>
-
-</div>
+    </div>
+  
+    <div class="mx-28">
+      <div class="related_news uppercase text-3xl font-bold my-11">
+        TIN TỨC LIÊN QUAN
+      </div>
+      <div class="grid grid-cols-3 gap-5" *ngIf="relatedBlogs.length > 0">
+        <div *ngFor="let blog of relatedBlogs" class="grid grid-rows-12 gap-3">
+          <div class="image_related_news row-span-5">
+            <img class="w-full object-cover" [src]="blog.image.image_main" alt="">
+          </div>
+          <div class="date_related_news row-span-1 uppercase text-sm font-light text-left">
+            {{ blog.date }}
+          </div>
+          <div class="title_related_news row-span-4 text-3xl leading-8 font-bold text-left">
+            {{ blog.tittle }}
+          </div>
+          <div class="button_related_news row-span-2 border border-solid hover:bg-black hover:text-white p-2 flex justify-center items-center w-3/5">
+            <button (click)="ReadMore(blog.id)" class="uppercase text-base">Đọc Thêm</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  

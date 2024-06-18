@@ -39,7 +39,7 @@
       <div class="grid grid-cols-3 gap-5" *ngIf="relatedBlogs.length > 0">
         <div *ngFor="let blog of relatedBlogs" class="grid grid-rows-12 gap-3">
           <div class="image_related_news row-span-5">
-            <img class="w-full object-cover" [src]="blog.image.image_main" alt="">
+            <img class="w-full object-cover" [src]="blog.image.image_main" alt="" (click)="ReadMore(blog.id)">
           </div>
           <div class="date_related_news row-span-1 uppercase text-sm font-light text-left">
             {{ blog.date }}

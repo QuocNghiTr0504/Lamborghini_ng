@@ -1,3 +1,5 @@
+
+
 <div class="body h-auto">
     <div class="grid-cols-1 mx-32 my-3" >
         <div class="nameblog font-bold text-4xl text-left mt-16">TIN TỨC</div>
@@ -6,7 +8,7 @@
                 {{lastBLogItem.tittle}}
             </div>
             <div class="image">
-                <img class="object-cover" [src]="lastBLogItem.image.image_main" alt="">
+                <img class="object-cover" (click)="reaMoreBLog(lastBLogItem.id)" [src]="lastBLogItem.image.image_main" alt="">
             </div>
             
             <div class="date text-2xl font-medium my-5">
@@ -46,7 +48,7 @@
 
         <div class="grid grid-cols-2" *ngFor="let item of blogList">
             <div class="col-span-1">
-              <img class="h-[80%] w-full custom-shape-blog" [src]="item.image.image_main" alt="">
+              <img class="h-[80%] w-full custom-shape-blog" [src]="item.image.image_main" alt="" (click)="reaMoreBLog(item.id)">
             </div>
             <div class="col-span-1 h-[80%] flex flex-col justify-between text-left ml-10">
               <div class="date text-lg">{{item.date}}</div>

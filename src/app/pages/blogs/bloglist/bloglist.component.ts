@@ -14,7 +14,7 @@ export class BloglistComponent implements OnInit {
   lastBLogItem: Blog | null = null;
   
   constructor(private httpBlogs:BlogService, private readonly route:Router  ){
-    
+   
   }
 
   ngOnInit(): void {

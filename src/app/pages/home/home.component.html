@@ -155,24 +155,27 @@
 
  <div class="news mx-3 items-center">
   <div class="font-bold text-4xl py-3">NEWS</div>
-    <div class="grid grid-cols-2 mx-28 gap-5">
+    <div class="grid grid-cols-2 mx-28 gap-5" *ngFor="let itemsBlogIntro of blogIntro">
       <div class="img flex justify-center">
-        <img class="w-80% object-cover h-[80%] custom-shape-blog" src="https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2023/11_16_10_anni/cover_m.jpg" alt="">
+        <img class="w-80% object-cover h-[80%] custom-shape-blog" [src]="itemsBlogIntro.image.image_main" alt="" (click)="readMore(itemsBlogIntro.id)">
       </div>
       <div class="newdoc h-[80%] flex flex-col justify-between text-left">
-        <div class="date text-lg">22/11/2023</div>
+        <div class="date text-lg">{{itemsBlogIntro.date}}</div>
         <div class="tittle font-medium">
-          <div class="catolegy line-clamp-1">TIN TỨC</div>
+          <div class="catolegy line-clamp-1">{{itemsBlogIntro.category}}</div>
           <div class="tittle_new text-2xl">
-            YOU WANT TRY SPEED EVERDAY...
+           {{itemsBlogIntro.tittle}}
           </div>
         </div>
         <div class="">
           <div class="border border-solid hover:opacity-80 hover:bg-black hover:text-white w-3/4 sm:w-1/2 h-auto p-2 flex items-center justify-center">
-              <button class="text-base">READ MORE</button>
+              <button (click)="readMore(itemsBlogIntro.id)" class="text-base">READ MORE</button>
           </div>
       </div>  
       </div>
+    </div>
+    <div class="seeInfoBlog flex justify-center items-center">
+      <button routerLink="/blogs" routerLinkActive class="border border-solid hover:opacity-80 hover:bg-black hover:text-white w-1/5 h-auto p-2 flex items-center justify-center text-xl uppercase font-bold">Xem thêm</button>
     </div>
   </div>
 

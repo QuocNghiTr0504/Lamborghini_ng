@@ -28,7 +28,7 @@ import { BlogService } from 'src/app/service/blog/blog.service';
     }
   }
   readMore(id:number){
-    this.route.navigate(['/blogdetails',id])
+    this.route.navigate(['/articles',id])
   }
 }
     

@@ -15,7 +15,7 @@ export class SidenavComponent {
     {id:2,name:'Product',icon:'shopping_cart',route:'products'},
     {id:3,name:'Comments',icon:'comments',route:'comments'},
     {id:4,name:'Translate',icon:'g_translate',route:'translate'},
-    {id:5,name:'Blog',icon:'drafts',route:'blogs'},
+    {id:5,name:'Blog',icon:'drafts',route:'articles'},
   ]
     constructor(){
 

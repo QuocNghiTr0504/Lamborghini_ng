@@ -45,11 +45,10 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { SignInComponent } from './pages/login/sign-in/sign-in.component';
 import { ChartComponent } from './pages/chart/chart.component';
 import { CarouselModule } from 'ngx-owl-carousel-o';
-import { BloglistComponent } from './pages/blogs/bloglist/bloglist.component';
-import { BlogdetailComponent } from './pages/blogs/blogdetail/blogdetail.component';
-import { register } from 'swiper/element/bundle';
-// register Swiper custom elements
-register();
+
+import { ArticlesModule } from './pages/articles/articles/articles.module';
+
+
 const routes: Routes = [
   {
     path: '',
@@ -74,10 +73,10 @@ const routes: Routes = [
     MainLayoutComponent,
     SignInComponent,
     ChartComponent,
-    BloglistComponent,
-    BlogdetailComponent,
+    
   ],
   imports: [
+    ArticlesModule,
     BrowserModule,
     BrowserAnimationsModule,
     MatIconModule,
@@ -101,11 +100,9 @@ const routes: Routes = [
     ReactiveFormsModule,
     FormsModule,
     CarouselModule,
-
   ],
   providers: [],
   bootstrap: [AppComponent],
-  schemas: [CUSTOM_ELEMENTS_SCHEMA]
-
+  schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
 export class AppModule { }

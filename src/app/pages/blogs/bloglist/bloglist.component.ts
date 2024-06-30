@@ -20,10 +20,8 @@ export class BloglistComponent implements OnInit {
   ngOnInit(): void {
     this.httpBlogs.getBlog().subscribe((data: Blog[])=>{
       this.blogList = data;
-      console.log('DATA',this.blogList )
-
       this.lastBLogItem = this.blogList[this.blogList.length - 1];
-
+      
       if(this.blogList.length > 0) {
         this.blogList= this.blogList.slice(0,-1).reverse();
       }  
@@ -31,7 +29,7 @@ export class BloglistComponent implements OnInit {
   }
 
   reaMoreBLog(id:number){
-    this.route.navigate(['/blogdetails',id])
+    this.route.navigate(['/articles',id])
   }
 
 }

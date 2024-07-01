@@ -44,7 +44,7 @@ import { MainLayoutComponent } from './components/main-layout/main-layout.compon
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { SignInComponent } from './pages/login/sign-in/sign-in.component';
 import { ChartComponent } from './pages/chart/chart.component';
-import { CarouselModule } from 'ngx-owl-carousel-o';
+
 
 import { ArticlesModule } from './pages/articles/articles/articles.module';
 
@@ -99,7 +99,7 @@ const routes: Routes = [
     }),
     ReactiveFormsModule,
     FormsModule,
-    CarouselModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent],

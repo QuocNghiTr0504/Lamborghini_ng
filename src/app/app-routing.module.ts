@@ -9,8 +9,7 @@
   import { userImplementsGuard } from './user--implements.guard';
   import { SignInComponent } from './pages/login/sign-in/sign-in.component';
   import { HeaderComponent } from './components/header/header.component';
-import { ArticlesModule } from './pages/articles/articles/articles.module';
-import { articleRoutes } from './pages/articles/articles/articles.routes';
+ 
 
 
   const routes:Routes=[
@@ -53,8 +52,11 @@ import { articleRoutes } from './pages/articles/articles/articles.routes';
             {
               path:'details/:id',
               component: DetailsComponent
+            },            
+            {
+              path:'articles',
+              loadChildren: () => import('./pages/articles/articles/articles.module').then((m) => m.ArticlesModule)
             },
-         
  
           ]
         }

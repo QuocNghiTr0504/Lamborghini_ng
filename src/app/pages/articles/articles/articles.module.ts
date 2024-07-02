@@ -5,7 +5,6 @@ import { articleRoutes } from './articles.routes';
 import { BloglistComponent } from '../../blogs/bloglist/bloglist.component';
 import { register } from 'swiper/element/bundle';
 import { BlogdetailComponent } from '../../blogs/blogdetail/blogdetail.component';
-
 register();
 
 @NgModule({

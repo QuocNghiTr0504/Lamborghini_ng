@@ -1,9 +1,13 @@
+
+*{
+  font-size: Roboto, Helvetica Neue, Arial;
+}
 mat-toolbar{
     position: relative;
+    height: 13%;
     z-index: 5;
-    display: flex;
-    justify-content: space-between;
-    background: #064E3B;
+    background: #508D4E;
+    font-size: 18px;
 }
 
 mat-sidenav{
@@ -39,4 +43,11 @@ mat-icon {
 
 .darkMode{
   background: #000;
+}
+
+.mat-sidenav {
+  transition: transform 2s ease-in-out;
+}
+.iconchange{
+  transition: all 2s ease-in-out;
 }

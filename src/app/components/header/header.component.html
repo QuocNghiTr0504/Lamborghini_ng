@@ -4,18 +4,17 @@
             <div class="logo block">
                 <img height="100%" src="https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/logos/2024/03_26/logo_header_01.svg" alt="">
             </div>
-            <div class="hidden lg:block ml-10 ">
-                <a href="" routerLink="/home" routerLinkActive>Home</a>
+            <div class="ml-10">
+                <a routerLink="/home" routerLinkActive>Home</a>
             </div>
-            <div class="hidden lg:block ">
-                <a href="" routerLink="/products" routerLinkActive>Products</a>
+            <div>
+                <a routerLink="/products" routerLinkActive>Products</a>
             </div>
-            <div class="hidden lg:block ">
-                <a href="" routerLink="/articles/list" routerLinkActive>Articles</a>
+            <div>
+                <a routerLink="/articles/list" routerLinkActive>Articles</a>
             </div>
         </button>
     </div>
-
 
     <div class="flex gap-5 items-center">
         <div class="hidden lg:block museum">
@@ -42,36 +41,38 @@
             <div *ngIf="isOpen" [ngClass]="{'darkMode': darkMode}" id="dropdownAvatarName" class="absolute mt-6 z-50 bg-gray-100 darkMode:bg-black divide-y divide-gray-100 rounded-lg shadow w-40 dark:divide-gray-600">
                 <ul class="py-2 text-sm" aria-labelledby="dropdownInformdropdownAvatarNameButtonationButton">
                     <li><a href="#" class="block px-4 py-2 hover:bg-slate-400">Profile</a></li>
-                    <li><a href="#" class="block px-4 py-2 hover    :bg-slate-400 dark:hover:bg-gray-600">Edit profile</a></li>
+                    <li><a href="#" class="block px-4 py-2 hover:bg-slate-400 dark:hover:bg-gray-600">Edit profile</a></li>
                     <li><a href="#" class="block px-4 py-2 hover:bg-slate-400 dark:hover:bg-gray-600">Earnings</a></li>
                 </ul>
                 <div class="py-2"><a routerLink="/singin" class="block px-4 py-2 text-sm hover:bg-slate-400 dark:hover:bg-gray-600 dark:hover:text-white">Sign out</a></div>
             </div>
         </div>
-        <button class="block lg:hidden iconchange" (click)="toggleSidebar()">
-            <mat-icon class=" text-4xl" *ngIf="!sidenav.opened">menu</mat-icon>
-            <mat-icon class=" text-4xl" *ngIf="sidenav.opened">close</mat-icon>
+        <button class="block lg:hidden" (click)="toggleSidebar()">
+            <mat-icon *ngIf="!sidenav.opened">menu</mat-icon>
+            <mat-icon *ngIf="sidenav.opened">close</mat-icon>
         </button>
     </div>
 </mat-toolbar>
 
+
 <div class="absolute top-0 z-50 right-0 flex items-center justify-center h-full" >
-    <button class="border border-green-800 rounded-s-full bg-[#508D4E] hover:opacity-70 text-white font-bold py-2 px-4 relative" (click)="openDialog()">
+    <button class="border border-green-800 rounded-s-full bg-green-900 hover:opacity-70 text-white font-bold py-2 px-4 relative" (click)="openDialog()">
         <mat-icon class="text-4xl font-bold animate-spin">settings</mat-icon>
     </button>
-  </div>
+</div>
 
 <mat-sidenav-container [ngClass]="{'darkMode': darkMode}">
     <mat-sidenav #sidenav mode="over" position="start" class="w-full h-full bg-blue-500" [@slideInOut]="slideState">
-        <div class="flex flex-col p-10 bg-black text-white uppercase text-2xl">
-            <a href="" (click)="closeSidebar()" routerLink="/home" routerLinkActive class="mb-4">Home</a>
-            <a href="" (click)="closeSidebar()" routerLink="/products" routerLinkActive class="mb-4">Products</a>
-            <a href="" (click)="closeSidebar()" routerLink="/articles" routerLinkActive class="mb-4">Articles</a>
-            <a href="" (click)="closeSidebar()" class="mb-4">MUSEUM</a>
-            <a href="" (click)="closeSidebar()" class="mb-4">CONTACT</a>
-            <a href="" (click)="closeSidebar()" class="mb-4">Profile</a>
-            <a href="" (click)="closeSidebar()" class="mb-4">Edit profile</a>
-            <a href="" (click)="closeSidebar()" class="mb-4">Earnings</a>
+        <div class="flex text-2xl p-10 flex-col uppercase bg-black text-white">
+            <a (click)="closeSidebar()" routerLink="/home" routerLinkActive class="mb-4">Home</a>
+            <a (click)="closeSidebar()" routerLink="/products" routerLinkActive class="mb-4">Products</a>
+            <a (click)="closeSidebar()" routerLink="/articles/list" routerLinkActive class="mb-4">Articles</a>
+            <a class="mb-4">MUSEUM</a>
+            <a class="mb-4">CONTACT</a>
+            <a class="mb-4">Profile</a>
+            <a class="mb-4">Edit profile</a>
+            <a class="mb-4">Earnings</a>
+            <a routerLink="/singin" class="mb-4">Sign out</a>
         </div>
     </mat-sidenav>
     <mat-sidenav-content>

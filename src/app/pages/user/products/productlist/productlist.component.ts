@@ -1,4 +1,4 @@
-  import { Component } from '@angular/core';
+  import { Component, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { BehaviorSubject } from 'rxjs';
 
 import { Product } from 'src/app/models/product';
@@ -9,7 +9,7 @@ import { GetProductsService } from 'src/app/service/product/get-products.service
 @Component({
   selector: 'app-productlist',
   templateUrl: './productlist.component.html',
-  styleUrls: ['./productlist.component.scss']
+  styleUrls: ['./productlist.component.scss'],
 })
 export class ProductlistComponent {
   productList!: Product[];

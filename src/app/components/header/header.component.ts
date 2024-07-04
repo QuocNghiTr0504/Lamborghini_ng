@@ -68,11 +68,12 @@ export class HeaderComponent {
   }
 
   toggleSidebar() {
+
     this.isSidenavOpen = !this.isSidenavOpen;
     this.slideState = this.isSidenavOpen ? 'in' : 'out';
     this.sidenav.toggle();
   }
-  
+
   closeSidebar() {
     this.isSidenavOpen = false;
     this.slideState = 'out';

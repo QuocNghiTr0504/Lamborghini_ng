@@ -1,6 +1,6 @@
 <div *ngIf="detailBlog$ | async as detailBlog" class="main">
-    <div class="grid-cols-1 mx-28 my-3">
-      <div class="tittle_blog font-extrabold text-7xl text-lef py-5 mb-5">
+    <div class="grid-cols-1 mx-10 lg:mx-28 my-3">
+      <div class="tittle_blog font-extrabold text-4xl lg:text-7xl text-lef py-5 mb-5">
         {{ detailBlog.tittle }}
       </div>
       <div class="image">
@@ -12,7 +12,7 @@
       <div class="descript py-3 text-lg leading-8">
         {{ detailBlog.description.des }}
       </div>
-      <div class="grid grid-cols-2 gap-5 py-5">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 py-5">
         <div class="iamge_second">
           <img class="object-cover h-full" [src]="detailBlog.image.secondary_image" alt="">
         </div>
@@ -32,19 +32,19 @@
       </swiper-container>
     </div>
   
-    <div class="mx-28">
+    <div class="mx-10 lg:mx-28">
       <div class="related_news uppercase text-3xl font-bold my-11">
         TIN TỨC LIÊN QUAN
       </div>
-      <div class="grid grid-cols-3 gap-5" *ngIf="relatedBlogs.length > 0">
-        <div *ngFor="let blog of relatedBlogs" class="grid grid-rows-12 gap-3">
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-5" *ngIf="relatedBlogs.length > 0">
+        <div *ngFor="let blog of relatedBlogs" class="grid lg:grid-rows-12 gap-3">
           <div class="image_related_news row-span-5">
             <img class="w-full object-cover" [src]="blog.image.image_main" alt="" (click)="ReadMore(blog.id)">
           </div>
           <div class="date_related_news row-span-1 uppercase text-sm font-light text-left">
             {{ blog.date }}
           </div>
-          <div class="title_related_news row-span-4 text-3xl leading-8 font-bold text-left">
+          <div class="title_related_news row-span-4 text-2xl lg:text-3xl leading-8 font-bold text-left">
             {{ blog.tittle }}
           </div>
           <div class="button_related_news row-span-2 border border-solid hover:bg-black hover:text-white p-2 flex justify-center items-center w-3/5">

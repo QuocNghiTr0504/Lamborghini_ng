@@ -8,7 +8,7 @@
         <a routerLink="/home" routerLinkActive>Home</a>
       </div>
       <div class="ml-10 hidden lg:block">
-        <a routerLink="/dashboard" routerLinkActive>DashBoard</a>
+        <a routerLink="/login" routerLinkActive>DashBoard</a>
       </div>
       <div class="hidden lg:block">
         <a routerLink="/products" routerLinkActive>Products</a>
@@ -51,9 +51,9 @@
         <div class="py-2"><a routerLink="/singin" class="block px-4 py-2 text-sm hover:bg-slate-400 dark:hover:bg-gray-600 dark:hover:text-white">Sign out</a></div>
       </div>
     </div>
-    <div class="block lg:hidden ">
+    <div class="block lg:hidden menu_mobie mr-5">
         <button class="text-4xl  hover:opacity-85 transition-all" (click)="toggleSidebar()">
-            <mat-icon>{{!sidenav.opened ? 'menu' : 'close'}}</mat-icon> 
+            <mat-icon class="text-4xl">{{!sidenav.opened ? 'menu' : 'close'}}</mat-icon> 
         </button>
     </div>
   </div>

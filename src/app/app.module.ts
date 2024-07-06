@@ -21,12 +21,15 @@ import { ModalComponent } from './components/modal/modal/modal.component';
 
 import { CommonModule } from '@angular/common';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-
-
+import { LoginComponent } from './pages/auth/login/login.component'; 
+import {AngularFireModule} from '@angular/fire/compat'
+import { environment } from 'src/environments/environment';
+import {AngularFireAuthModule } from '@angular/fire/compat/auth'
 @NgModule({
   declarations: [
     AppComponent,
     ModalComponent,
+    LoginComponent,
   ],
   imports: [
     BrowserModule,
@@ -41,6 +44,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     CommonModule,
     ReactiveFormsModule,
     FormsModule,
+    AngularFireModule.initializeApp(environment.firebase),
+    AngularFireAuthModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

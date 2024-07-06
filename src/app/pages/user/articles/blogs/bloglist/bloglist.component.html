@@ -1,10 +1,10 @@
 
 
 <div class="body h-auto">
-    <div class="grid-cols-1 mx-32 my-3" >
-        <div class="nameblog font-bold text-4xl text-left mt-16">TIN TỨC</div>
+    <div class="grid-cols-1 mx-10 lg:mx-28 my-3" >
+        <div class="nameblog font-bold text-5xl text-left mt-16">TIN TỨC</div>
         <div class="div" *ngIf="lastBLogItem">
-            <div class="tittle_blog font-extrabold text-7xl text-lef py-5 mb-5">
+            <div class="tittle_blog font-extrabold text-4xl text-lef py-5 mb-5">
                 {{lastBLogItem.tittle}}
             </div>
             <div class="image">
@@ -46,19 +46,17 @@
             </div>
         </div>
 
-        <div class="grid grid-cols-2" *ngFor="let item of blogList">
-            <div class="col-span-1">
-              <img class="h-[80%] w-full custom-shape-blog" [src]="item.image.image_main" alt="" (click)="reaMoreBLog(item.id)">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-3 mb-3 lg:mb-5" *ngFor="let item of blogList">
+            <div class="col-span-1 mr-3 ">    
+              <img class="object-cover  w-full custom-shape-blog" [src]="item.image.image_main" alt="" (click)="reaMoreBLog(item.id)">
             </div>
-            <div class="col-span-1 h-[80%] flex flex-col justify-between text-left ml-10">
-              <div class="date text-lg">{{item.date}}</div>
-              <div class="tittle font-medium">
-                <div class="catolegy line-clamp-1">{{item.category}}</div>
-                <div class="tittle_new text-2xl">
+            <div class="flex flex-col justify-between text-left">
+                <div class="date text-xl">{{item.date}}</div>
+                <div class="catolegy font-medium text-xl line-clamp-1">{{item.category}}</div>
+                <div class="tittle_new text-3xl font-bold">
                  {{item.tittle}}
                 </div>
-                </div>
-                <div class="border border-solid hover:opacity-80 hover:bg-black hover:text-white w-3/4 sm:w-1/2 h-auto p-2 flex items-center justify-center">
+                <div class="border border-solid hover:opacity-80 hover:bg-black hover:text-white w-1/2 lg:w-3/4 h-auto p-2 flex items-center justify-center">
                     <button class="text-base" (click)="reaMoreBLog(item.id)">READ MORE</button>
                 </div>  
             </div>

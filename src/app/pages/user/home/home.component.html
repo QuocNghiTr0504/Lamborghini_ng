@@ -142,9 +142,9 @@
 
  <div class="news mx-3 items-center">
   <div class="font-bold text-4xl py-3">NEWS</div>
-    <div class="grid grid-cols-2 mx-28 gap-5" *ngFor="let itemsBlogIntro of blogIntro">
+    <div class="grid grid-cols-1 lg:grid-cols-2 mx-3 lg:mx-28 gap-5 mb-3" *ngFor="let itemsBlogIntro of blogIntro">
       <div class="img flex justify-center">
-        <img class="w-80% object-cover h-[80%] custom-shape-blog" [src]="itemsBlogIntro.image.image_main" alt="" (click)="readMore(itemsBlogIntro.id)">
+        <img class="lg:w-80% object-cover lg:h-[80%] custom-shape-blog" [src]="itemsBlogIntro.image.image_main" alt="" (click)="readMore(itemsBlogIntro.id)">
       </div>
       <div class="newdoc h-[80%] flex flex-col justify-between text-left">
         <div class="date text-lg">{{itemsBlogIntro.date}}</div>
@@ -155,14 +155,14 @@
           </div>
         </div>
         <div class="">
-          <div class="border border-solid hover:opacity-80 hover:bg-black hover:text-white w-3/4 sm:w-1/2 h-auto p-2 flex items-center justify-center">
+          <div class="border border-solid hover:opacity-80 hover:bg-black hover:text-white w-1/2 lg:w-3/4 h-auto p-2 flex items-center justify-center">
               <button (click)="readMore(itemsBlogIntro.id)" class="text-base">READ MORE</button>
           </div>
       </div>  
       </div>
     </div>
     <div class="seeInfoBlog flex justify-center items-center">
-      <button routerLink="/articles/list" routerLinkActive class="border border-solid hover:opacity-80 hover:bg-black hover:text-white w-1/5 h-auto p-2 flex items-center justify-center text-xl uppercase font-bold">Xem thêm</button>
+      <button routerLink="/articles/list" routerLinkActive class="border border-solid hover:opacity-80 hover:bg-black hover:text-white w-1/3 lg:w-1/5 h-auto p-2 flex items-center justify-center text-xl uppercase font-bold">Xem thêm</button>
     </div>
   </div>
 

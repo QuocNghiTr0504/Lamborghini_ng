@@ -58,5 +58,19 @@
     </div>
 </div>
 <h2>lum</h2>
-<h2>{{nghitung | json}}</h2>
-<h2>{{nghitung.name}}</h2>
+
+<div *ngIf="user$ | async as user">
+    <h2>Welcome, {{ user.displayName }}</h2>
+    <div>Email: {{ user.email }}</div>
+    <div *ngIf="user.phoneNumber">Phone Number: {{ user.phoneNumber }}</div>
+    <div>
+      <img [src]="user.photoURL" alt="Avatar">
+    </div>
+    <div>role {{user.role}}</div>
+    <div *ngIf="user.providerId">Provider ID: {{ user.providerId }}</div>
+    <div *ngIf="user.profile">
+      <h3>Profile Information:</h3>
+      <pre>{{ user.profile | json }}</pre>
+    </div>
+  </div>
+  

@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { FormGroup, FormBuilder, FormControl } from '@angular/forms';
+import { Observable } from 'rxjs';
 import { AuthService } from 'src/app/service/auths/auth.service';
 
 @Component({
@@ -9,30 +10,31 @@ import { AuthService } from 'src/app/service/auths/auth.service';
 })
 export class LoginComponent {
   oderSignin: FormGroup;
-  nghitung: any;
-  constructor(private fb: FormBuilder,private auth: AuthService){
+  user$: Observable<any>; // Observable để lưu thông tin người dùng
+
+  constructor(private fb: FormBuilder, private auth1: AuthService) {
     this.oderSignin = this.fb.group({
-      email:'',
-      password:''
-    })
-  } 
- 
-  LgGG(){
-    this.auth.loginWithGoogle().then(result => {
-     this.auth.nghi.map(oke =>{
-        // this.nghitung = oke
-     })
+      email: '',
+      password: ''
+    });
+    this.user$ = this.auth1.abc$; // Lấy Observable từ AuthService
+  }
+
+  ngOnInit(): void {}
+
+  LgGG() {
+    this.auth1.loginWithGoogle().then(result => {
+      console.log("result",result);
     }).catch(error => {
       console.error(error);
     });
   }
-  ngOnInit(): void {
 
+  onSubmit() {
+    console.log(this.oderSignin);
   }
-  onSubmit(){
-    console.log(this.oderSignin)
-  }
-  signinLogin(){
-    console.log(this.oderSignin.value)
+
+  signinLogin() {
+    console.log(this.oderSignin.value);
   }
 }

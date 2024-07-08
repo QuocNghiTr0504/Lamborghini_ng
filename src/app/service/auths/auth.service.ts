@@ -26,17 +26,17 @@ export class AuthService {
           role: 'user'
         };
         this.userSubject.next(userInfo); 
-        console.log('User info:', userInfo);
-        this.router.navigate(['/profile']);
+        this.router.navigate(['/home']);
       }
     }).catch(error => {
       console.error('Error signing in with Google:', error);
     });
+  
   }
 
   logout() {
     this.auth.signOut().then(() => {
-      this.userSubject.next(null); // 6. Cập nhật giá trị null khi người dùng đăng xuất
+      this.userSubject.next(null); 
       this.router.navigate(['/']);
     }).catch(error => {
       console.error('Error signing out:', error);

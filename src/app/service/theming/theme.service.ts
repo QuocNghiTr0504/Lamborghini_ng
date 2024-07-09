@@ -31,12 +31,9 @@ export class ThemeService {
       document.body.classList.remove('darkMode');
     }
   }
-
   openModal() {
-    const dialogRef = this.dialog.open(ModalComponent, {
-        
+    const dialogRef = this.dialog.open(ModalComponent, {     
     });
-
     dialogRef.afterClosed().subscribe(result => {
       console.log('The dialog was closed');
     });

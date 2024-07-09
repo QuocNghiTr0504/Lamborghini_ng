@@ -10,24 +10,29 @@ import { AuthService } from 'src/app/service/auths/auth.service';
 })
 export class LoginComponent {
   oderSignin: FormGroup;
-  user$: Observable<any>; // Observable để lưu thông tin người dùng
+  user:any; 
 
-  constructor(private fb: FormBuilder, private auth1: AuthService) {
+  constructor(private fb: FormBuilder, private auth: AuthService) {
     this.oderSignin = this.fb.group({
       email: '',
       password: ''
     });
-    this.user$ = this.auth1.abc$; // Lấy Observable từ AuthService
+    this.user = this.auth.getUserInfo();   
+
+
+  }
+  ngOnInit(): void {
   }
 
-  ngOnInit(): void {}
-
   LgGG() {
-    this.auth1.loginWithGoogle().then(result => {
+    this.auth.loginWithGoogle().then(result => {
       console.log("result",result);
     }).catch(error => {
       console.error(error);
     });
+  }
+  logoutGG(){
+    this.auth.logout();
   }
 
   onSubmit() {

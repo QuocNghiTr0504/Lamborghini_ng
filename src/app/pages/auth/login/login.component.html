@@ -59,7 +59,9 @@
 </div>
 <h2>lum</h2>
 
-<div *ngIf="user$ | async as user">
+<!-- <div *ngIf="user$ | async as user"> -->
+<div *ngIf="user">
+
     <h2>Welcome, {{ user.displayName }}</h2>
     <div>Email: {{ user.email }}</div>
     <div *ngIf="user.phoneNumber">Phone Number: {{ user.phoneNumber }}</div>
@@ -73,4 +75,9 @@
       <pre>{{ user.profile | json }}</pre>
     </div>
   </div>
-  
+
+  <hr>
+  <br>
+  <br>
+
+  <button (click)="logoutGG()">Logout</button>

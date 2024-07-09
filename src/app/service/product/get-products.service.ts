@@ -13,8 +13,7 @@ export class GetProductsService {
   private httpOptions = {
     headers: new HttpHeaders({
       'Content-Type': 'application/json',
-    }),
-    
+    }),  
   }
 
   constructor( private http: HttpClient) {}

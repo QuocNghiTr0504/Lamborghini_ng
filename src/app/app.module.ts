@@ -12,7 +12,6 @@ import {MatSlideToggleModule} from '@angular/material/slide-toggle';
 
 import { AppRoutingModule } from './app-routing.module';
 
-
 import { RouterLink } from '@angular/router';
 
 import { HttpClientModule } from '@angular/common/http';
@@ -24,12 +23,12 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { LoginComponent } from './pages/auth/login/login.component'; 
 import {AngularFireModule} from '@angular/fire/compat'
 import { environment } from 'src/environments/environment';
-import {AngularFireAuthModule } from '@angular/fire/compat/auth'
+import {AngularFireAuthModule } from '@angular/fire/compat/auth';
 @NgModule({
   declarations: [
     AppComponent,
     ModalComponent,
-    LoginComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,

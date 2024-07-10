@@ -1,6 +1,7 @@
-import { Component } from '@angular/core';
+import { Component, OnDestroy, OnInit } from '@angular/core';
 import { FormGroup, FormBuilder, FormControl } from '@angular/forms';
-import { Observable } from 'rxjs';
+import { Observable, Subscription } from 'rxjs';
+
 import { AuthService } from 'src/app/service/auths/auth.service';
 
 @Component({
@@ -8,25 +9,36 @@ import { AuthService } from 'src/app/service/auths/auth.service';
   templateUrl: './login.component.html',
   styleUrls: ['./login.component.scss']
 })
-export class LoginComponent {
+export class LoginComponent implements OnInit, OnDestroy {
   oderSignin: FormGroup;
-  user:any; 
+  user:any;
+  private userSubscription: Subscription| undefined;
+
+
 
   constructor(private fb: FormBuilder, private auth: AuthService) {
     this.oderSignin = this.fb.group({
       email: '',
       password: ''
-    });
-    this.user = this.auth.getUserInfo();   
-
+    }); 
 
   }
+  ngOnDestroy(): void {
+    this.userSubscription = this.auth.user$.subscribe(user => {
+      this.user = user; // Update user information when user$ emits a new value
+    });
+  }
   ngOnInit(): void {
+    this.userSubscription = this.auth.user$.subscribe(user => {
+      this.user = user; // Update user information when user$ emits a new value
+    });
+   
   }
 
   LgGG() {
     this.auth.loginWithGoogle().then(result => {
-      console.log("result",result);
+      console.log("111111", this.user)
+  
     }).catch(error => {
       console.error(error);
     });

@@ -1,6 +1,8 @@
 
 import { animate, state, style, transition, trigger } from '@angular/animations';
-import { Component, computed, effect, HostBinding, HostListener, signal, ViewChild} from '@angular/core';
+import { Component, computed, effect, HostBinding, HostListener, OnDestroy, OnInit, signal, ViewChild} from '@angular/core';
+import { Subscription } from 'rxjs';
+import { AuthService } from 'src/app/service/auths/auth.service';
 
 
 import { ThemeService } from 'src/app/service/theming/theme.service';
@@ -25,12 +27,14 @@ import { ThemeService } from 'src/app/service/theming/theme.service';
     ])
   ]
 })
-export class HeaderComponent {
+export class HeaderComponent implements OnInit, OnDestroy {
   @HostBinding('class') className='';
   isOpen: boolean = false;
   @ViewChild('sidenav') sidenav: any;
   slideState: string = 'out';
   isSidenavOpen: boolean = false;
+  profileUser:any;
+  private userSubcription: Subscription|undefined;
 
   toggleDropdown(event: Event) {
     event.stopPropagation();
@@ -46,7 +50,7 @@ export class HeaderComponent {
   sideNavWidth= computed(()=>this.collapsed()?'13%': '0px');
 
   
-  constructor(private themeService: ThemeService) {
+  constructor(private themeService: ThemeService, private auth:AuthService) {
     const savedSizeNav = localStorage.getItem('collapsed') === 'true';
     this.collapsed.set(savedSizeNav)
     this.themeService.getDarkMode().subscribe((darkMode) => {
@@ -58,6 +62,23 @@ export class HeaderComponent {
     })
     
   }
+
+  ngOnInit(): void {
+    this.userSubcription = this.auth.user$.subscribe(user =>{
+      if(user){
+        this.profileUser = user;
+      }else{
+        console.log("No user")
+      }
+    })
+    
+  }
+  ngOnDestroy(): void {
+    this.userSubcription = this.auth.user$.subscribe(user =>{
+      this.profileUser = user
+    })
+  }
+  
 
   toggleDarkMode() {
     this.themeService.toggleDarkMode();

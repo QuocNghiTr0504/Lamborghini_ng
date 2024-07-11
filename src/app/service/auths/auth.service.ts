@@ -19,7 +19,7 @@ export class AuthService {
   ) {
     this.auth.authState.subscribe(user => {
       if (user) {
-        this.userSubject.next(user); // Update userSubject with the user object directly
+        this.userSubject.next(user);
       } else {
         this.userSubject.next(null);
       }
@@ -30,6 +30,7 @@ export class AuthService {
     return this.auth.signInWithPopup(new GoogleAuthProvider()).then(res => {
       if (res.user) {
         this.saveUserData(res.user);
+        this.router.navigate(['home'])
       }
     }).catch(error => {
       console.error('Error signing in with Google:', error);
@@ -48,7 +49,6 @@ export class AuthService {
 
     userRef.set(userData, { merge: true })
       .then(() => {
-        console.log('User data saved to Firestore');
         this.userSubject.next(user); 
       })
       .catch(error => console.error('Error saving user data:', error));

@@ -1,7 +1,8 @@
-import { HtmlTagDefinition } from '@angular/compiler';
+
 import { Component, ElementRef } from '@angular/core';
 import { Router } from '@angular/router';
 import { Blog } from 'src/app/models/blog';
+import { AuthService } from 'src/app/service/auths/auth.service';
 import { BlogService } from 'src/app/service/blog/blog.service';
 
 
@@ -12,10 +13,10 @@ import { BlogService } from 'src/app/service/blog/blog.service';
   styleUrls: ['./home.component.scss']
 })
   export class HomeComponent{
-  
+
   blogIntro: Blog[] = [];
 
-  constructor(private elementRef: ElementRef, private blog: BlogService, private route: Router) {
+  constructor(private elementRef: ElementRef, private blog: BlogService, private route: Router,private auth: AuthService) {
     this.blog.getBlog().subscribe(data =>{
     this.blogIntro = data.reverse().slice(0,3);
     })

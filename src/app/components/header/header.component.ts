@@ -65,11 +65,7 @@ export class HeaderComponent implements OnInit, OnDestroy {
 
   ngOnInit(): void {
     this.userSubcription = this.auth.user$.subscribe(user =>{
-      if(user){
         this.profileUser = user;
-      }else{
-        console.log("No user")
-      }
     })
     
   }
@@ -77,6 +73,11 @@ export class HeaderComponent implements OnInit, OnDestroy {
     this.userSubcription = this.auth.user$.subscribe(user =>{
       this.profileUser = user
     })
+  }
+
+
+  logout(){
+    this.auth.logout()
   }
   
 

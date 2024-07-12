@@ -16,6 +16,7 @@ import { MatIconModule } from "@angular/material/icon";
 import { MatListModule } from "@angular/material/list";
 import { MatToolbarModule } from "@angular/material/toolbar";
 import { SidenavComponent } from "src/app/components/sidenav/sidenav.component";
+import { InfoComponent } from './products/info/info.component';
 
 @NgModule({
     declarations:[
@@ -26,7 +27,7 @@ import { SidenavComponent } from "src/app/components/sidenav/sidenav.component";
         ProductlistComponent,
         ProductitemComponent, 
         DetailsComponent, 
-        TranslateComponent],
+        TranslateComponent, InfoComponent],
     imports:[  
         MatIconModule,
         MatButtonModule,

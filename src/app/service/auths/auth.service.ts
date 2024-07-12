@@ -21,7 +21,7 @@ export class AuthService {
       if (user) {
         this.userSubject.next(user);
       } else {
-        this.userSubject.next(null);
+        this.userSubject.next(this.getPlaceholderUser());
       }
     });
   }
@@ -56,15 +56,18 @@ export class AuthService {
 
   logout() {
     this.auth.signOut().then(() => {
-      this.userSubject.next(null);
-      localStorage.removeItem('token');
-      localStorage.removeItem('tokenExpiration');
-      localStorage.removeItem('user');
-      this.router.navigate(['/']);
+      this.userSubject.next(this.getPlaceholderUser());
+      this.clearSession();
     }).catch(error => {
       console.error('Error signing out:', error);
     });
-    this.clearSession();
+  }
+
+  private getPlaceholderUser() {
+    return {
+      displayName: 'Khách',
+      photoURL: 'path/to/placeholder/image.png'
+    };
   }
 
   getToken(): string | null {

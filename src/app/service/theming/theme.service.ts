@@ -8,7 +8,6 @@ import { ModalComponent } from 'src/app/components/modal/modal/modal.component';
 })
 export class ThemeService {
   private darkMode = new BehaviorSubject<boolean>(localStorage.getItem('darkMode') === 'true');
-
   constructor(public dialog: MatDialog) {
     this.applyTheme();
   }

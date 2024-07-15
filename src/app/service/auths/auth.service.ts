@@ -30,7 +30,7 @@ export class AuthService {
     return this.auth.signInWithPopup(new GoogleAuthProvider()).then(res => {
       if (res.user) {
         this.saveUserData(res.user);
-        this.router.navigate(['home'])
+        this.router.navigate(['/home'])
       }
     }).catch(error => {
       console.error('Error signing in with Google:', error);
@@ -83,5 +83,17 @@ export class AuthService {
     localStorage.removeItem('token');
     localStorage.removeItem('tokenExpiration');
     localStorage.removeItem('user');
+  }
+  
+  isLoggedIn(): Promise<boolean> {
+    return new Promise((resolve, reject) => {
+      this.auth.onAuthStateChanged(user => {
+        if (user) {
+          resolve(true);
+        } else {
+          resolve(false);
+        }
+      });
+    });
   }
 }

@@ -8,8 +8,4 @@ import { Component, computed, signal } from '@angular/core';
 })
 export class AppComponent {
   title = 'material-responsive-sidenav';
-  darkMode: boolean = false;
-  collapsed=signal(false);
-  
-  sideNavWidth= computed(()=>this.collapsed()?'55px': '170px');
 }

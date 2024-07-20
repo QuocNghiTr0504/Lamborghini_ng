@@ -10,29 +10,5 @@
   padding: 0;
 }
 
-:host{
-  transition: all 500ms ease-in-out;
 
-}
-mat-toolbar{
-    position: relative;
-    z-index: 5;
-    display: flex;
-    justify-content: space-between;
-    // background: rgb(24, 24, 24);
-     // background:#0f172a ;
-    font-family: Karla;
-}
-mat-sidenav{
-    background: transparent;
-}
-
-// Button Rotate
-button{
-    border: none;
-}
-.selected-menu-item{
-border-left: red solid 2px;
-
-}
 

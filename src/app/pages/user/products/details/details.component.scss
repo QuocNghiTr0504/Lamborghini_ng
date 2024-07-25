@@ -2,65 +2,84 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-weight: bold;
-}
-
-.mainn{
-    font-weight: bold;
-
+   
 }
 
 .darkMode .svg-icon path {
     fill: white;
   }
 
-
-
 .container {
+    font-size: 18px;
+    line-height: 30px;
     width: 90%;
-    position: relative;
-    margin-top: 9%;
-    margin-left: 5%;
-    justify-content: center !important;
+    justify-content: center ;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    letter-spacing: 3px;
 }
 
 .jtl {
     border-color: #202020;
-    line-height: 24px;
-    padding: 35px;
+    padding: 13%;
     list-style: none;
 }
 
-img {
-    max-width: 70%;
-    max-height: 70%;
-    object-fit: contain;
-    display: block;
-    margin: auto;
-}
-
 .picture {
+    object-fit: cover;
     position: absolute;
     right: 0;
-    top: 50%;
+    top: 40%;
     transform: translateY(-50%);
-    width: 100%;
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-@keyframes moveCar {
-    0% { left: -60% }
-    50% { left: calc(50% - 38%); } /* Vị trí giữa màn hình */
-    100% { left: calc(50% - 38%); } /* Vị trí giữa màn hình */
-}
 
 img {
+    object-fit: cover;
     position: absolute;
-    animation: moveCar 3.5s linear forwards; /* Dừng lại ở vị trí cuối cùng */
+    animation: moveCar 3.5s linear forwards; 
 }
 
+@keyframes moveCar {
+    0% { left: -120% }
+    50% { left: calc(50% - 90%); } 
+    100% { left: calc(50% - 90%); } 
+}
+
+@keyframes fadeIn {
+    0% {
+     transform: translateX(-70%);
+    }
+    50% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(0);
+    }
+  }
+  .fadeIn{
+    animation: fadeIn 1s ease-out;
+  }
+
+  @keyframes opaci {
+    0% { opacity: 0; scale: 0.5;}
+    50%{ opacity: 0; scale: 0.5;}
+    100%{opacity: 0; scale: 1;}
+  }   
+  .hexagon-icon2{
+    opacity: 1;
+    animation: opaci 1s ease-out;
+
+  }
+  .hexagon-icon1{
+    opacity: 1;
+    animation: opaci 1.5s ease-out;
+
+  }
 
 svg{
     height: 48px;
@@ -77,12 +96,26 @@ svg{
     margin-left: 20px;
 }
 
-.hexagon-icon .hexagon {
+.hexagon-icon1, .hexagon-icon2, .hexagon {
     fill: black;
     stroke:  #fff;
   }
 
   
+@media (max-width: 640px){
+    .picture{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        position: none;
+    }
+    img {
+        object-fit: cover;
+        position: absolute;    
+        animation: none;
+    }
+    
+}
 
 
 

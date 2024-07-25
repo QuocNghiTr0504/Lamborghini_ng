@@ -9,14 +9,9 @@ import { BlogService } from 'src/app/service/blog/blog.service';
   styleUrls: ['./info.component.scss']
 })
 export class InfoComponent {
-
-
-
   constructor(private elementRef: ElementRef, private blog: BlogService, private route: Router,private auth: AuthService) {
 
   }
-
-  
 
   scrollToTarget(): void {  
     const targetElement = this.elementRef.nativeElement.querySelector('#inf');

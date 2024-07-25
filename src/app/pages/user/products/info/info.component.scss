@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    letter-spacing: 2px;
 }
 .main {
     width: 100%;
@@ -61,14 +62,11 @@
 }
 
 .custom-shape-main{
-  clip-path: polygon(100% 0, 100% 0, 100% 100%, 31% 100%);
+  clip-path: polygon(0 0, 100% 0, 70% 100%, 0 100%);
 }
 
-.custom-shape {
-  clip-path: polygon(10% 0, 100% 0, 60% 100%, 0% 100%, 0 20%);
-}
 .custom-shape-1{
-  clip-path: polygon(59% 0, 100% 0, 100% 100%,100% 60%,80% 100%,0 100%);
+  clip-path: polygon(65% 10%, 100% 10%, 100% 100%,100% 60%,80% 100%,0 100%);
 }
 
 .custom-shape-2{
